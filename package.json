@@ -1,16 +1,16 @@
 {
-    "name": "wordpress-toolbox",
-    "displayName": "WordPress Toolbox",
-    "description": "The ultimate WordPress snippet collection for Visual Studio Code.",
-    "version": "1.1.2",
-    "publisher": "wordpresstoolbox",
+    "name": "wordpress-genesis-toolbox",
+    "displayName": "WordPress Genesis Toolbox",
+    "description": "The first WordPress Genesis snippet collection for Visual Studio Code.",
+    "version": "1.0.0",
+    "publisher": "rokkitpress",
     "engines": {
         "vscode": "^1.19.0"
     },
     "categories": [
         "Snippets"
     ],
-    "keywords": ["wordpress"],
+    "keywords": ["wordpress", "genesis"],
     "contributes": {
         "snippets": [{
             "language": "php",
@@ -19,13 +19,13 @@
     },
     "icon": "images/wordpresstoolbox-icon.png",
     "license": "MIT",
-    "homepage": "https://www.wordpresstoolbox.io/vscode",
+    "homepage": "https://github.com/atcraigwatson/vscode-wordpress-genesis-toolbox",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jason-pomerleau/vscode-wordpress-toolbox"
+        "url": "https://github.com/atcraigwatson/vscode-wordpress-genesis-toolbox"
     },
     "bugs": {
-        "url": "https://github.com/jason-pomerleau/vscode-wordpress-toolbox/issues",
-        "email": "jason@jasonpomerleau.com"
+        "url": "https://github.com/atcraigwatson/vscode-wordpress-genesis-toolbox/issues",
+        "email": "craig@rokkitpress.com"
     }
 }
