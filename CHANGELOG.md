@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.0] - 2018-03-19
+### Rerelease
+- Rereleased under new name "VSCODE WordPress Genesis Toolbox".
+- Updated all snippets to be genesis specific.
+
 ## [1.1.2] - 2018-02-06
 ### Updated
 - Updated snippets to WordPress 4.9.4 release.
