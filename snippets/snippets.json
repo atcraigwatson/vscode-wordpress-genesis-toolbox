@@ -1084,7 +1084,7 @@
         "prefix": "genesis_markup",
         "body": [
             "genesis_markup( array(",
-            "\t${1:\\$html5:string} => ${2:\\$'':string},"
+            "\t${1:\\$html5:string} => ${2:\\$'':string},",
             ");"
         ],
         "description": "Customize Nav Menu Control Class."
