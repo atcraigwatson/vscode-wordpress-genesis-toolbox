@@ -1,1119 +1,1084 @@
 
 {
-    "Hook: genesis_do_loop": {
-        "prefix": "genesis_do_loop",
-        "body": "genesis_do_loop",
-        "description": "Do the default Genesis post loop."
+    "Hook: genesis_before_comments": {
+        "prefix": "genesis_before_comments",
+        "body": "genesis_before_comments",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: _WP_Dependency": {
-        "prefix": "_WP_Dependency",
-        "body": "_WP_Dependency",
-        "description": "Class _WP_Dependency"
+    "Hook: genesis_comments": {
+        "prefix": "genesis_comments",
+        "body": "genesis_comments",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: _WP_Editors": {
-        "prefix": "_WP_Editors",
-        "body": "_WP_Editors",
-        "description": "Facilitates adding of the WordPress editor as used on the Write and Edit screens."
+    "Hook: genesis_after_comments": {
+        "prefix": "genesis_after_comments",
+        "body": "genesis_after_comments",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: _WP_List_Table_Compat": {
-        "prefix": "_WP_List_Table_Compat",
-        "body": "_WP_List_Table_Compat",
-        "description": "Helper class to be used only by back compat functions"
+    "Hook: genesis_before_pings": {
+        "prefix": "genesis_before_pings",
+        "body": "genesis_before_pings",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: Akismet": {
-        "prefix": "Akismet",
-        "body": "Akismet",
-        "description": ""
+    "Hook: genesis_pings": {
+        "prefix": "genesis_pings",
+        "body": "genesis_pings",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: Akismet_Admin": {
-        "prefix": "Akismet_Admin",
-        "body": "Akismet_Admin",
-        "description": ""
+    "Hook: genesis_after_pings": {
+        "prefix": "genesis_after_pings",
+        "body": "genesis_after_pings",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: Akismet_CLI": {
-        "prefix": "Akismet_CLI",
-        "body": "Akismet_CLI",
-        "description": "Filter spam comments."
+    "Hook: genesis_before_comment_form": {
+        "prefix": "genesis_before_comment_form",
+        "body": "genesis_before_comment_form",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: Akismet_REST_API": {
-        "prefix": "Akismet_REST_API",
-        "body": "Akismet_REST_API",
-        "description": ""
+    "Hook: genesis_comment_form": {
+        "prefix": "genesis_comment_form",
+        "body": "genesis_comment_form",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: Akismet_Widget": {
-        "prefix": "Akismet_Widget",
-        "body": "Akismet_Widget",
-        "description": "Core base class extended to register widgets."
+    "Hook: genesis_after_comment_form": {
+        "prefix": "genesis_after_comment_form",
+        "body": "genesis_after_comment_form",
+        "description": "Template Action Hook: found in - genesis/comments.php"
     },
-    "Class: AMFReader": {
-        "prefix": "AMFReader",
-        "body": "AMFReader",
-        "description": ""
+    "Hook: genesis_before_footer": {
+        "prefix": "genesis_before_footer",
+        "body": "genesis_before_footer",
+        "description": "Template Action Hook: found in - genesis/footer.php"
     },
-    "Class: AMFStream": {
-        "prefix": "AMFStream",
-        "body": "AMFStream",
-        "description": ""
+    "Hook: genesis_footer": {
+        "prefix": "genesis_footer",
+        "body": "genesis_footer",
+        "description": "Template Action Hook: found in - genesis/footer.php"
     },
-    "Class: AtomEntry": {
-        "prefix": "AtomEntry",
-        "body": "AtomEntry",
-        "description": "Structure that store Atom Entry Properties"
+    "Hook: genesis_after_footer": {
+        "prefix": "genesis_after_footer",
+        "body": "genesis_after_footer",
+        "description": "Template Action Hook: found in - genesis/footer.php"
     },
-    "Class: AtomFeed": {
-        "prefix": "AtomFeed",
-        "body": "AtomFeed",
-        "description": "Structure that store common Atom Feed Properties"
+    "Hook: genesis_after": {
+        "prefix": "genesis_after",
+        "body": "genesis_after",
+        "description": "Template Action Hook: found in - genesis/footer.php"
     },
-    "Class: AtomParser": {
-        "prefix": "AtomParser",
-        "body": "AtomParser",
-        "description": "AtomLib Atom Parser API"
+    "Hook: genesis_doctype": {
+        "prefix": "genesis_doctype",
+        "body": "genesis_doctype",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: Automatic_Upgrader_Skin": {
-        "prefix": "Automatic_Upgrader_Skin",
-        "body": "Automatic_Upgrader_Skin",
-        "description": "Upgrader Skin for Automatic WordPress Upgrades"
+    "Hook: genesis_title": {
+        "prefix": "genesis_title",
+        "body": "genesis_title",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: AVCSequenceParameterSetReader": {
-        "prefix": "AVCSequenceParameterSetReader",
-        "body": "AVCSequenceParameterSetReader",
-        "description": ""
+    "Hook: genesis_meta": {
+        "prefix": "genesis_meta",
+        "body": "genesis_meta",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: Bulk_Plugin_Upgrader_Skin": {
-        "prefix": "Bulk_Plugin_Upgrader_Skin",
-        "body": "Bulk_Plugin_Upgrader_Skin",
-        "description": "Bulk Plugin Upgrader Skin for WordPress Plugin Upgrades."
+    "Hook: genesis_before": {
+        "prefix": "genesis_before",
+        "body": "genesis_before",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: Bulk_Theme_Upgrader_Skin": {
-        "prefix": "Bulk_Theme_Upgrader_Skin",
-        "body": "Bulk_Theme_Upgrader_Skin",
-        "description": "Bulk Theme Upgrader Skin for WordPress Theme Upgrades."
+    "Hook: genesis_before_header": {
+        "prefix": "genesis_before_header",
+        "body": "genesis_before_header",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: Bulk_Upgrader_Skin": {
-        "prefix": "Bulk_Upgrader_Skin",
-        "body": "Bulk_Upgrader_Skin",
-        "description": "Generic Bulk Upgrader Skin for WordPress Upgrades."
+    "Hook: genesis_header": {
+        "prefix": "genesis_header",
+        "body": "genesis_header",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: Core_Upgrader": {
-        "prefix": "Core_Upgrader",
-        "body": "Core_Upgrader",
-        "description": "Core class used for updating core."
+    "Hook: genesis_after_header": {
+        "prefix": "genesis_after_header",
+        "body": "genesis_after_header",
+        "description": "Template Action Hook: found in - genesis/header.php"
     },
-    "Class: Custom_Background": {
-        "prefix": "Custom_Background",
-        "body": "Custom_Background",
-        "description": "The custom background class."
+    "Hook: genesis_before_sidebar_alt_widget_area": {
+        "prefix": "genesis_before_sidebar_alt_widget_area",
+        "body": "genesis_before_sidebar_alt_widget_area",
+        "description": "Template Action Hook: found in - genesis/sidebar-alt.php"
     },
-    "Class: Custom_Image_Header": {
-        "prefix": "Custom_Image_Header",
-        "body": "Custom_Image_Header",
-        "description": "The custom header image class."
+    "Hook: genesis_sidebar_alt": {
+        "prefix": "genesis_sidebar_alt",
+        "body": "genesis_sidebar_alt",
+        "description": "Template Action Hook: found in - genesis/sidebar-alt.php"
     },
-    "Class: Error": {
-        "prefix": "Error",
-        "body": "Error",
-        "description": ""
+    "Hook: genesis_after_sidebar_alt_widget_area": {
+        "prefix": "genesis_after_sidebar_alt_widget_area",
+        "body": "genesis_after_sidebar_alt_widget_area",
+        "description": "Template Action Hook: found in - genesis/sidebar-alt.php"
     },
-    "Class: File_Upload_Upgrader": {
-        "prefix": "File_Upload_Upgrader",
-        "body": "File_Upload_Upgrader",
-        "description": "Core class used for handling file uploads."
+    "Hook: genesis_before_sidebar_widget_area": {
+        "prefix": "genesis_before_sidebar_widget_area",
+        "body": "genesis_before_sidebar_widget_area",
+        "description": "Template Action Hook: found in - genesis/sidebar.php"
     },
-    "Class: ftp": {
-        "prefix": "ftp",
-        "body": "ftp",
-        "description": "FTP implementation using fsockopen to connect."
+    "Hook: genesis_sidebar": {
+        "prefix": "genesis_sidebar",
+        "body": "genesis_sidebar",
+        "description": "Template Action Hook: found in - genesis/sidebar.php"
     },
-    "Class: ftp_base": {
-        "prefix": "ftp_base",
-        "body": "ftp_base",
-        "description": "PemFTP base class"
+    "Hook: genesis_after_sidebar_widget_area": {
+        "prefix": "genesis_after_sidebar_widget_area",
+        "body": "genesis_after_sidebar_widget_area",
+        "description": "Template Action Hook: found in - genesis/sidebar.php"
     },
-    "Class: ftp_pure": {
-        "prefix": "ftp_pure",
-        "body": "ftp_pure",
-        "description": "FTP implementation using fsockopen to connect."
+    "Hook: genesis_before_content_sidebar_wrap": {
+        "prefix": "genesis_before_content_sidebar_wrap",
+        "body": "genesis_before_content_sidebar_wrap",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: ftp_sockets": {
-        "prefix": "ftp_sockets",
-        "body": "ftp_sockets",
-        "description": "Socket Based FTP implementation"
+    "Hook: genesis_before_content": {
+        "prefix": "genesis_before_content",
+        "body": "genesis_before_content",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: getID3": {
-        "prefix": "getID3",
-        "body": "getID3",
-        "description": ""
+    "Hook: genesis_before_loop": {
+        "prefix": "genesis_before_loop",
+        "body": "genesis_before_loop",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: getid3_ac3": {
-        "prefix": "getid3_ac3",
-        "body": "getid3_ac3",
-        "description": ""
+    "Hook: genesis_loop": {
+        "prefix": "genesis_loop",
+        "body": "genesis_loop",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: getid3_apetag": {
-        "prefix": "getid3_apetag",
-        "body": "getid3_apetag",
-        "description": ""
+    "Hook: genesis_after_loop": {
+        "prefix": "genesis_after_loop",
+        "body": "genesis_after_loop",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: getid3_asf": {
-        "prefix": "getid3_asf",
-        "body": "getid3_asf",
-        "description": ""
+    "Hook: genesis_after_content": {
+        "prefix": "genesis_after_content",
+        "body": "genesis_after_content",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: getid3_dts": {
-        "prefix": "getid3_dts",
-        "body": "getid3_dts",
-        "description": ""
+    "Hook: genesis_after_content_sidebar_wrap": {
+        "prefix": "genesis_after_content_sidebar_wrap",
+        "body": "genesis_after_content_sidebar_wrap",
+        "description": "Structural Action Hook: found in - genesis/lib/framework.php"
     },
-    "Class: getid3_exception": {
-        "prefix": "getid3_exception",
-        "body": "getid3_exception",
-        "description": ""
+    "Hook: genesis_pre": {
+        "prefix": "genesis_pre",
+        "body": "genesis_pre",
+        "description": "Structural Action Hook: found in - genesis/lib/init.php"
     },
-    "Class: getid3_flac": {
-        "prefix": "getid3_flac",
-        "body": "getid3_flac",
-        "description": ""
+    "Hook: genesis_pre_framework": {
+        "prefix": "genesis_pre_framework",
+        "body": "genesis_pre_framework",
+        "description": "Structural Action Hook: found in - genesis/lib/init.php"
     },
-    "Class: getid3_flv": {
-        "prefix": "getid3_flv",
-        "body": "getid3_flv",
-        "description": ""
+    "Hook: genesis_init": {
+        "prefix": "genesis_init",
+        "body": "genesis_init",
+        "description": "Structural Action Hook: found in - genesis/lib/init.php"
     },
-    "Class: getid3_handler": {
-        "prefix": "getid3_handler",
-        "body": "getid3_handler",
-        "description": ""
+    "Hook: genesis_setup": {
+        "prefix": "genesis_setup",
+        "body": "genesis_setup",
+        "description": "Structural Action Hook: found in - genesis/lib/init.php"
     },
-    "Class: getid3_id3v1": {
-        "prefix": "getid3_id3v1",
-        "body": "getid3_id3v1",
-        "description": ""
+    "Hook: genesis_archive_title_descriptions": {
+        "prefix": "genesis_archive_title_descriptions",
+        "body": "genesis_archive_title_descriptions",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/archive.php"
     },
-    "Class: getid3_id3v2": {
-        "prefix": "getid3_id3v2",
-        "body": "getid3_id3v2",
-        "description": ""
+    "Hook: genesis_list_comments": {
+        "prefix": "genesis_list_comments",
+        "body": "genesis_list_comments",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/comments.php"
     },
-    "Class: getid3_lib": {
-        "prefix": "getid3_lib",
-        "body": "getid3_lib",
-        "description": ""
+    "Hook: genesis_list_pings": {
+        "prefix": "genesis_list_pings",
+        "body": "genesis_list_pings",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/comments.php"
     },
-    "Class: getid3_lyrics3": {
-        "prefix": "getid3_lyrics3",
-        "body": "getid3_lyrics3",
-        "description": ""
+    "Hook: genesis_before_comment": {
+        "prefix": "genesis_before_comment",
+        "body": "genesis_before_comment",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/comments.php"
     },
-    "Class: getid3_matroska": {
-        "prefix": "getid3_matroska",
-        "body": "getid3_matroska",
-        "description": ""
+    "Hook: genesis_after_comment": {
+        "prefix": "genesis_after_comment",
+        "body": "genesis_after_comment",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/comments.php"
     },
-    "Class: getid3_mp3": {
-        "prefix": "getid3_mp3",
-        "body": "getid3_mp3",
-        "description": ""
+    "Hook: genesis_site_title": {
+        "prefix": "genesis_site_title",
+        "body": "genesis_site_title",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/header.php"
     },
-    "Class: getid3_ogg": {
-        "prefix": "getid3_ogg",
-        "body": "getid3_ogg",
-        "description": ""
+    "Hook: genesis_site_description": {
+        "prefix": "genesis_site_description",
+        "body": "genesis_site_description",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/header.php"
     },
-    "Class: getid3_quicktime": {
-        "prefix": "getid3_quicktime",
-        "body": "getid3_quicktime",
-        "description": ""
+    "Hook: genesis_header_right": {
+        "prefix": "genesis_header_right",
+        "body": "genesis_header_right",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/header.php"
     },
-    "Class: getid3_riff": {
-        "prefix": "getid3_riff",
-        "body": "getid3_riff",
-        "description": ""
+    "Hook: genesis_before_while": {
+        "prefix": "genesis_before_while",
+        "body": "genesis_before_while",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
     },
-    "Class: Gettext_Translations": {
-        "prefix": "Gettext_Translations",
-        "body": "Gettext_Translations",
-        "description": ""
+    "Hook: genesis_before_entry": {
+        "prefix": "genesis_before_entry",
+        "body": "genesis_before_entry",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
     },
-    "Class: IXR_Base64": {
-        "prefix": "IXR_Base64",
-        "body": "IXR_Base64",
-        "description": "IXR_Base64"
+    "Hook: genesis_entry_header": {
+        "prefix": "genesis_entry_header",
+        "body": "genesis_entry_header",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
     },
-    "Class: IXR_Client": {
-        "prefix": "IXR_Client",
-        "body": "IXR_Client",
-        "description": "IXR_Client"
+    "Hook: genesis_before_entry_content": {
+        "prefix": "genesis_before_entry_content",
+        "body": "genesis_before_entry_content",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
     },
-    "Class: IXR_ClientMulticall": {
-        "prefix": "IXR_ClientMulticall",
-        "body": "IXR_ClientMulticall",
-        "description": "IXR_ClientMulticall"
+    "Hook: genesis_entry_content": {
+        "prefix": "genesis_entry_content",
+        "body": "genesis_entry_content",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
     },
-    "Class: IXR_Date": {
-        "prefix": "IXR_Date",
-        "body": "IXR_Date",
-        "description": "IXR_Date"
-    },
-    "Class: IXR_Error": {
-        "prefix": "IXR_Error",
-        "body": "IXR_Error",
-        "description": "IXR_Error"
-    },
-    "Class: IXR_IntrospectionServer": {
+    "Hook: IXR_IntrospectionServer": {
         "prefix": "IXR_IntrospectionServer",
         "body": "IXR_IntrospectionServer",
-        "description": "IXR_IntrospectionServer"
-    },
-    "Class: IXR_Message": {
-        "prefix": "IXR_Message",
-        "body": "IXR_Message",
-        "description": "IXR_MESSAGE"
-    },
-    "Class: IXR_Request": {
-        "prefix": "IXR_Request",
-        "body": "IXR_Request",
-        "description": "IXR_Request"
-    },
-    "Class: IXR_Server": {
-        "prefix": "IXR_Server",
-        "body": "IXR_Server",
-        "description": "IXR_Server"
-    },
-    "Class: IXR_Value": {
-        "prefix": "IXR_Value",
-        "body": "IXR_Value",
-        "description": "IXR_Value"
-    },
-    "Class: Language_Pack_Upgrader": {
-        "prefix": "Language_Pack_Upgrader",
-        "body": "Language_Pack_Upgrader",
-        "description": "Core class used for updating/installing language packs (translations) for plugins, themes, and core."
-    },
-    "Class: Language_Pack_Upgrader_Skin": {
-        "prefix": "Language_Pack_Upgrader_Skin",
-        "body": "Language_Pack_Upgrader_Skin",
-        "description": "Translation Upgrader Skin for WordPress Translation Upgrades."
-    },
-    "Class: MagpieRSS": {
-        "prefix": "MagpieRSS",
-        "body": "MagpieRSS",
-        "description": ""
-    },
-    "Class: MO": {
-        "prefix": "MO",
-        "body": "MO",
-        "description": ""
-    },
-    "Class: NOOP_Translations": {
-        "prefix": "NOOP_Translations",
-        "body": "NOOP_Translations",
-        "description": "Provides the same interface as Translations, but doesn&#039;t do anything"
-    },
-    "Class: PasswordHash": {
-        "prefix": "PasswordHash",
-        "body": "PasswordHash",
-        "description": "Portable PHP password hashing framework."
-    },
-    "Class: PclZip": {
-        "prefix": "PclZip",
-        "body": "PclZip",
-        "description": ""
-    },
-    "Class: PHPMailer": {
-        "prefix": "PHPMailer",
-        "body": "PHPMailer",
-        "description": "PHPMailer - PHP email creation and transport class."
-    },
-    "Class: phpmailerException": {
-        "prefix": "phpmailerException",
-        "body": "phpmailerException",
-        "description": "PHPMailer exception handler"
-    },
-    "Class: Plugin_Installer_Skin": {
-        "prefix": "Plugin_Installer_Skin",
-        "body": "Plugin_Installer_Skin",
-        "description": "Plugin Installer Skin for WordPress Plugin Installer."
-    },
-    "Class: Plugin_Upgrader": {
-        "prefix": "Plugin_Upgrader",
-        "body": "Plugin_Upgrader",
-        "description": "Core class used for upgrading/installing plugins."
-    },
-    "Class: Plugin_Upgrader_Skin": {
-        "prefix": "Plugin_Upgrader_Skin",
-        "body": "Plugin_Upgrader_Skin",
-        "description": "Plugin Upgrader Skin for WordPress Plugin Upgrades."
-    },
-    "Class: Plural_Forms": {
-        "prefix": "Plural_Forms",
-        "body": "Plural_Forms",
-        "description": "A gettext Plural-Forms parser."
-    },
-    "Class: PO": {
-        "prefix": "PO",
-        "body": "PO",
-        "description": ""
-    },
-    "Class: POMO_CachedFileReader": {
-        "prefix": "POMO_CachedFileReader",
-        "body": "POMO_CachedFileReader",
-        "description": "Reads the contents of the file in the beginning."
-    },
-    "Class: POMO_CachedIntFileReader": {
-        "prefix": "POMO_CachedIntFileReader",
-        "body": "POMO_CachedIntFileReader",
-        "description": "Reads the contents of the file in the beginning."
-    },
-    "Class: POMO_FileReader": {
-        "prefix": "POMO_FileReader",
-        "body": "POMO_FileReader",
-        "description": ""
-    },
-    "Class: POMO_Reader": {
-        "prefix": "POMO_Reader",
-        "body": "POMO_Reader",
-        "description": ""
-    },
-    "Class: POMO_StringReader": {
-        "prefix": "POMO_StringReader",
-        "body": "POMO_StringReader",
-        "description": "Provides file-like methods for manipulating a string instead of a physical file."
-    },
-    "Class: POP3": {
-        "prefix": "POP3",
-        "body": "POP3",
-        "description": "mail_fetch/setup.php"
-    },
-    "Class: Requests": {
-        "prefix": "Requests",
-        "body": "Requests",
-        "description": "Requests for PHP"
-    },
-    "Class: Requests_Auth_Basic": {
-        "prefix": "Requests_Auth_Basic",
-        "body": "Requests_Auth_Basic",
-        "description": "Basic Authentication provider"
-    },
-    "Class: Requests_Cookie": {
-        "prefix": "Requests_Cookie",
-        "body": "Requests_Cookie",
-        "description": "Cookie storage object"
-    },
-    "Class: Requests_Cookie_Jar": {
-        "prefix": "Requests_Cookie_Jar",
-        "body": "Requests_Cookie_Jar",
-        "description": "Cookie holder object"
-    },
-    "Class: Requests_Exception": {
-        "prefix": "Requests_Exception",
-        "body": "Requests_Exception",
-        "description": "Exception for HTTP requests"
-    },
-    "Class: Requests_Exception_HTTP": {
-        "prefix": "Requests_Exception_HTTP",
-        "body": "Requests_Exception_HTTP",
-        "description": "Exception based on HTTP response"
-    },
-    "Class: Requests_Exception_HTTP_304": {
-        "prefix": "Requests_Exception_HTTP_304",
-        "body": "Requests_Exception_HTTP_304",
-        "description": "Exception for 304 Not Modified responses"
-    },
-    "Class: Requests_Exception_HTTP_305": {
-        "prefix": "Requests_Exception_HTTP_305",
-        "body": "Requests_Exception_HTTP_305",
-        "description": "Exception for 305 Use Proxy responses"
-    },
-    "Class: Requests_Exception_HTTP_306": {
-        "prefix": "Requests_Exception_HTTP_306",
-        "body": "Requests_Exception_HTTP_306",
-        "description": "Exception for 306 Switch Proxy responses"
-    },
-    "Class: Requests_Exception_HTTP_400": {
-        "prefix": "Requests_Exception_HTTP_400",
-        "body": "Requests_Exception_HTTP_400",
-        "description": "Exception for 400 Bad Request responses"
-    },
-    "Class: Requests_Exception_HTTP_401": {
-        "prefix": "Requests_Exception_HTTP_401",
-        "body": "Requests_Exception_HTTP_401",
-        "description": "Exception for 401 Unauthorized responses"
-    },
-    "Class: Requests_Exception_HTTP_402": {
-        "prefix": "Requests_Exception_HTTP_402",
-        "body": "Requests_Exception_HTTP_402",
-        "description": "Exception for 402 Payment Required responses"
-    },
-    "Class: Requests_Exception_HTTP_403": {
-        "prefix": "Requests_Exception_HTTP_403",
-        "body": "Requests_Exception_HTTP_403",
-        "description": "Exception for 403 Forbidden responses"
-    },
-    "Class: Requests_Exception_HTTP_404": {
-        "prefix": "Requests_Exception_HTTP_404",
-        "body": "Requests_Exception_HTTP_404",
-        "description": "Exception for 404 Not Found responses"
-    },
-    "Class: Requests_Exception_HTTP_405": {
-        "prefix": "Requests_Exception_HTTP_405",
-        "body": "Requests_Exception_HTTP_405",
-        "description": "Exception for 405 Method Not Allowed responses"
-    },
-    "Class: Requests_Exception_HTTP_406": {
-        "prefix": "Requests_Exception_HTTP_406",
-        "body": "Requests_Exception_HTTP_406",
-        "description": "Exception for 406 Not Acceptable responses"
-    },
-    "Class: Requests_Exception_HTTP_407": {
-        "prefix": "Requests_Exception_HTTP_407",
-        "body": "Requests_Exception_HTTP_407",
-        "description": "Exception for 407 Proxy Authentication Required responses"
-    },
-    "Class: Requests_Exception_HTTP_408": {
-        "prefix": "Requests_Exception_HTTP_408",
-        "body": "Requests_Exception_HTTP_408",
-        "description": "Exception for 408 Request Timeout responses"
-    },
-    "Class: Requests_Exception_HTTP_409": {
-        "prefix": "Requests_Exception_HTTP_409",
-        "body": "Requests_Exception_HTTP_409",
-        "description": "Exception for 409 Conflict responses"
-    },
-    "Class: Requests_Exception_HTTP_410": {
-        "prefix": "Requests_Exception_HTTP_410",
-        "body": "Requests_Exception_HTTP_410",
-        "description": "Exception for 410 Gone responses"
-    },
-    "Class: Requests_Exception_HTTP_411": {
-        "prefix": "Requests_Exception_HTTP_411",
-        "body": "Requests_Exception_HTTP_411",
-        "description": "Exception for 411 Length Required responses"
-    },
-    "Class: Requests_Exception_HTTP_412": {
-        "prefix": "Requests_Exception_HTTP_412",
-        "body": "Requests_Exception_HTTP_412",
-        "description": "Exception for 412 Precondition Failed responses"
-    },
-    "Class: Requests_Exception_HTTP_413": {
-        "prefix": "Requests_Exception_HTTP_413",
-        "body": "Requests_Exception_HTTP_413",
-        "description": "Exception for 413 Request Entity Too Large responses"
-    },
-    "Class: Requests_Exception_HTTP_414": {
-        "prefix": "Requests_Exception_HTTP_414",
-        "body": "Requests_Exception_HTTP_414",
-        "description": "Exception for 414 Request-URI Too Large responses"
-    },
-    "Class: Requests_Exception_HTTP_415": {
-        "prefix": "Requests_Exception_HTTP_415",
-        "body": "Requests_Exception_HTTP_415",
-        "description": "Exception for 415 Unsupported Media Type responses"
-    },
-    "Class: Requests_Exception_HTTP_416": {
-        "prefix": "Requests_Exception_HTTP_416",
-        "body": "Requests_Exception_HTTP_416",
-        "description": "Exception for 416 Requested Range Not Satisfiable responses"
-    },
-    "Class: Requests_Exception_HTTP_417": {
-        "prefix": "Requests_Exception_HTTP_417",
-        "body": "Requests_Exception_HTTP_417",
-        "description": "Exception for 417 Expectation Failed responses"
-    },
-    "Class: Requests_Exception_HTTP_418": {
-        "prefix": "Requests_Exception_HTTP_418",
-        "body": "Requests_Exception_HTTP_418",
-        "description": "Exception for 418 I&#039;m A Teapot responses"
-    },
-    "Class: Requests_Exception_HTTP_428": {
-        "prefix": "Requests_Exception_HTTP_428",
-        "body": "Requests_Exception_HTTP_428",
-        "description": "Exception for 428 Precondition Required responses"
-    },
-    "Class: Requests_Exception_HTTP_429": {
-        "prefix": "Requests_Exception_HTTP_429",
-        "body": "Requests_Exception_HTTP_429",
-        "description": "Exception for 429 Too Many Requests responses"
-    },
-    "Class: Requests_Exception_HTTP_431": {
-        "prefix": "Requests_Exception_HTTP_431",
-        "body": "Requests_Exception_HTTP_431",
-        "description": "Exception for 431 Request Header Fields Too Large responses"
-    },
-    "Class: Requests_Exception_HTTP_500": {
-        "prefix": "Requests_Exception_HTTP_500",
-        "body": "Requests_Exception_HTTP_500",
-        "description": "Exception for 500 Internal Server Error responses"
-    },
-    "Class: Requests_Exception_HTTP_501": {
-        "prefix": "Requests_Exception_HTTP_501",
-        "body": "Requests_Exception_HTTP_501",
-        "description": "Exception for 501 Not Implemented responses"
-    },
-    "Class: Requests_Exception_HTTP_502": {
-        "prefix": "Requests_Exception_HTTP_502",
-        "body": "Requests_Exception_HTTP_502",
-        "description": "Exception for 502 Bad Gateway responses"
-    },
-    "Class: Requests_Exception_HTTP_503": {
-        "prefix": "Requests_Exception_HTTP_503",
-        "body": "Requests_Exception_HTTP_503",
-        "description": "Exception for 503 Service Unavailable responses"
-    },
-    "Class: Requests_Exception_HTTP_504": {
-        "prefix": "Requests_Exception_HTTP_504",
-        "body": "Requests_Exception_HTTP_504",
-        "description": "Exception for 504 Gateway Timeout responses"
-    },
-    "Class: Requests_Exception_HTTP_505": {
-        "prefix": "Requests_Exception_HTTP_505",
-        "body": "Requests_Exception_HTTP_505",
-        "description": "Exception for 505 HTTP Version Not Supported responses"
-    },
-    "Class: Requests_Exception_HTTP_511": {
-        "prefix": "Requests_Exception_HTTP_511",
-        "body": "Requests_Exception_HTTP_511",
-        "description": "Exception for 511 Network Authentication Required responses"
-    },
-    "Class: Requests_Exception_HTTP_Unknown": {
-        "prefix": "Requests_Exception_HTTP_Unknown",
-        "body": "Requests_Exception_HTTP_Unknown",
-        "description": "Exception for unknown status responses"
-    },
-    "Class: Requests_Exception_Transport": {
-        "prefix": "Requests_Exception_Transport",
-        "body": "Requests_Exception_Transport",
-        "description": "Exception for HTTP requests"
-    },
-    "Class: Requests_Exception_Transport_cURL": {
-        "prefix": "Requests_Exception_Transport_cURL",
-        "body": "Requests_Exception_Transport_cURL",
-        "description": "Exception for HTTP requests"
-    },
-    "Class: Requests_Hooks": {
-        "prefix": "Requests_Hooks",
-        "body": "Requests_Hooks",
-        "description": "Handles adding and dispatching events"
-    },
-    "Class: Requests_IDNAEncoder": {
-        "prefix": "Requests_IDNAEncoder",
-        "body": "Requests_IDNAEncoder",
-        "description": "IDNA URL encoder"
-    },
-    "Class: Requests_IPv6": {
-        "prefix": "Requests_IPv6",
-        "body": "Requests_IPv6",
-        "description": "Class to validate and to work with IPv6 addresses"
-    },
-    "Class: Requests_IRI": {
-        "prefix": "Requests_IRI",
-        "body": "Requests_IRI",
-        "description": "IRI parser/serialiser/normaliser"
-    },
-    "Class: Requests_Proxy_HTTP": {
-        "prefix": "Requests_Proxy_HTTP",
-        "body": "Requests_Proxy_HTTP",
-        "description": "HTTP Proxy connection interface"
-    },
-    "Class: Requests_Response": {
-        "prefix": "Requests_Response",
-        "body": "Requests_Response",
-        "description": "HTTP response class"
-    },
-    "Class: Requests_Response_Headers": {
-        "prefix": "Requests_Response_Headers",
-        "body": "Requests_Response_Headers",
-        "description": "Case-insensitive dictionary, suitable for HTTP headers"
-    },
-    "Class: Requests_Session": {
-        "prefix": "Requests_Session",
-        "body": "Requests_Session",
-        "description": "Session handler for persistent requests and default parameters"
-    },
-    "Class: Requests_SSL": {
-        "prefix": "Requests_SSL",
-        "body": "Requests_SSL",
-        "description": "SSL utilities for Requests"
-    },
-    "Class: Requests_Transport_cURL": {
-        "prefix": "Requests_Transport_cURL",
-        "body": "Requests_Transport_cURL",
-        "description": "cURL HTTP transport"
-    },
-    "Class: Requests_Transport_fsockopen": {
-        "prefix": "Requests_Transport_fsockopen",
-        "body": "Requests_Transport_fsockopen",
-        "description": "fsockopen HTTP transport"
-    },
-    "Class: Requests_Utility_CaseInsensitiveDictionary": {
-        "prefix": "Requests_Utility_CaseInsensitiveDictionary",
-        "body": "Requests_Utility_CaseInsensitiveDictionary",
-        "description": "Case-insensitive dictionary, suitable for HTTP headers"
-    },
-    "Class: Requests_Utility_FilteredIterator": {
-        "prefix": "Requests_Utility_FilteredIterator",
-        "body": "Requests_Utility_FilteredIterator",
-        "description": "Iterator for arrays requiring filtered values"
-    },
-    "Class: RSSCache": {
-        "prefix": "RSSCache",
-        "body": "RSSCache",
-        "description": ""
-    },
-    "Class: Services_JSON": {
-        "prefix": "Services_JSON",
-        "body": "Services_JSON",
-        "description": "Converts to and from JSON format."
-    },
-    "Class: Services_JSON_Error": {
-        "prefix": "Services_JSON_Error",
-        "body": "Services_JSON_Error",
-        "description": ""
-    },
-    "Class: SimplePie": {
-        "prefix": "SimplePie",
-        "body": "SimplePie",
-        "description": "SimplePie"
-    },
-    "Class: SimplePie_Author": {
-        "prefix": "SimplePie_Author",
-        "body": "SimplePie_Author",
-        "description": "Manages all author-related data"
-    },
-    "Class: SimplePie_Cache": {
-        "prefix": "SimplePie_Cache",
-        "body": "SimplePie_Cache",
-        "description": "Used to create cache objects"
-    },
-    "Class: SimplePie_Cache_DB": {
-        "prefix": "SimplePie_Cache_DB",
-        "body": "SimplePie_Cache_DB",
-        "description": "Base class for database-based caches"
-    },
-    "Class: SimplePie_Cache_File": {
-        "prefix": "SimplePie_Cache_File",
-        "body": "SimplePie_Cache_File",
-        "description": "Caches data to the filesystem"
-    },
-    "Class: SimplePie_Cache_Memcache": {
-        "prefix": "SimplePie_Cache_Memcache",
-        "body": "SimplePie_Cache_Memcache",
-        "description": "Caches data to memcache"
-    },
-    "Class: SimplePie_Cache_MySQL": {
-        "prefix": "SimplePie_Cache_MySQL",
-        "body": "SimplePie_Cache_MySQL",
-        "description": "Caches data to a MySQL database"
-    },
-    "Class: SimplePie_Caption": {
-        "prefix": "SimplePie_Caption",
-        "body": "SimplePie_Caption",
-        "description": "Handles `&lt;media:text&gt;` captions as defined in Media RSS."
-    },
-    "Class: SimplePie_Category": {
-        "prefix": "SimplePie_Category",
-        "body": "SimplePie_Category",
-        "description": "Manages all category-related data"
-    },
-    "Class: SimplePie_Content_Type_Sniffer": {
-        "prefix": "SimplePie_Content_Type_Sniffer",
-        "body": "SimplePie_Content_Type_Sniffer",
-        "description": "Content-type sniffing"
-    },
-    "Class: SimplePie_Copyright": {
-        "prefix": "SimplePie_Copyright",
-        "body": "SimplePie_Copyright",
-        "description": "Manages `&lt;media:copyright&gt;` copyright tags as defined in Media RSS"
-    },
-    "Class: SimplePie_Core": {
-        "prefix": "SimplePie_Core",
-        "body": "SimplePie_Core",
-        "description": "SimplePie class."
-    },
-    "Class: SimplePie_Credit": {
-        "prefix": "SimplePie_Credit",
-        "body": "SimplePie_Credit",
-        "description": "Handles `&lt;media:credit&gt;` as defined in Media RSS"
-    },
-    "Class: SimplePie_Decode_HTML_Entities": {
-        "prefix": "SimplePie_Decode_HTML_Entities",
-        "body": "SimplePie_Decode_HTML_Entities",
-        "description": "Decode HTML Entities"
-    },
-    "Class: SimplePie_Enclosure": {
-        "prefix": "SimplePie_Enclosure",
-        "body": "SimplePie_Enclosure",
-        "description": "Handles everything related to enclosures (including Media RSS and iTunes RSS)"
-    },
-    "Class: SimplePie_Exception": {
-        "prefix": "SimplePie_Exception",
-        "body": "SimplePie_Exception",
-        "description": "General SimplePie exception class"
-    },
-    "Class: SimplePie_File": {
-        "prefix": "SimplePie_File",
-        "body": "SimplePie_File",
-        "description": "Used for fetching remote files and reading local files"
-    },
-    "Class: SimplePie_gzdecode": {
-        "prefix": "SimplePie_gzdecode",
-        "body": "SimplePie_gzdecode",
-        "description": "Decode &#039;gzip&#039; encoded HTTP data"
-    },
-    "Class: SimplePie_HTTP_Parser": {
-        "prefix": "SimplePie_HTTP_Parser",
-        "body": "SimplePie_HTTP_Parser",
-        "description": "HTTP Response Parser"
-    },
-    "Class: SimplePie_IRI": {
-        "prefix": "SimplePie_IRI",
-        "body": "SimplePie_IRI",
-        "description": "IRI parser/serialiser/normaliser"
-    },
-    "Class: SimplePie_Item": {
-        "prefix": "SimplePie_Item",
-        "body": "SimplePie_Item",
-        "description": "Manages all item-related data"
-    },
-    "Class: SimplePie_Locator": {
-        "prefix": "SimplePie_Locator",
-        "body": "SimplePie_Locator",
-        "description": "Used for feed auto-discovery"
-    },
-    "Class: SimplePie_Misc": {
-        "prefix": "SimplePie_Misc",
-        "body": "SimplePie_Misc",
-        "description": "Miscellanous utilities"
-    },
-    "Class: SimplePie_Net_IPv6": {
-        "prefix": "SimplePie_Net_IPv6",
-        "body": "SimplePie_Net_IPv6",
-        "description": "Class to validate and to work with IPv6 addresses."
-    },
-    "Class: SimplePie_Parse_Date": {
-        "prefix": "SimplePie_Parse_Date",
-        "body": "SimplePie_Parse_Date",
-        "description": "Date Parser"
-    },
-    "Class: SimplePie_Parser": {
-        "prefix": "SimplePie_Parser",
-        "body": "SimplePie_Parser",
-        "description": "Parses XML into something sane"
-    },
-    "Class: SimplePie_Rating": {
-        "prefix": "SimplePie_Rating",
-        "body": "SimplePie_Rating",
-        "description": "Handles `&lt;media:rating&gt;` or `&lt;itunes:explicit&gt;` tags as defined in Media RSS and iTunes RSS respectively"
-    },
-    "Class: SimplePie_Registry": {
-        "prefix": "SimplePie_Registry",
-        "body": "SimplePie_Registry",
-        "description": "Handles creating objects and calling methods"
-    },
-    "Class: SimplePie_Restriction": {
-        "prefix": "SimplePie_Restriction",
-        "body": "SimplePie_Restriction",
-        "description": "Handles `&lt;media:restriction&gt;` as defined in Media RSS"
-    },
-    "Class: SimplePie_Sanitize": {
-        "prefix": "SimplePie_Sanitize",
-        "body": "SimplePie_Sanitize",
-        "description": "Used for data cleanup and post-processing"
-    },
-    "Class: SimplePie_Source": {
-        "prefix": "SimplePie_Source",
-        "body": "SimplePie_Source",
-        "description": "Handles `&lt;atom:source&gt;`"
-    },
-    "Class: SimplePie_XML_Declaration_Parser": {
-        "prefix": "SimplePie_XML_Declaration_Parser",
-        "body": "SimplePie_XML_Declaration_Parser",
-        "description": "Parses the XML Declaration"
-    },
-    "Class: SMTP": {
-        "prefix": "SMTP",
-        "body": "SMTP",
-        "description": "PHPMailer RFC821 SMTP email transport class."
-    },
-    "Class: Snoopy": {
-        "prefix": "Snoopy",
-        "body": "Snoopy",
-        "description": ""
-    },
-    "Class: Text_Diff": {
-        "prefix": "Text_Diff",
-        "body": "Text_Diff",
-        "description": "General API for generating and formatting diffs - the differences between two sequences of strings."
-    },
-    "Class: Text_Diff_Engine_native": {
-        "prefix": "Text_Diff_Engine_native",
-        "body": "Text_Diff_Engine_native",
-        "description": "Class used internally by Text_Diff to actually compute the diffs."
-    },
-    "Class: Text_Diff_Engine_shell": {
-        "prefix": "Text_Diff_Engine_shell",
-        "body": "Text_Diff_Engine_shell",
-        "description": "Class used internally by Diff to actually compute the diffs."
-    },
-    "Class: Text_Diff_Engine_string": {
-        "prefix": "Text_Diff_Engine_string",
-        "body": "Text_Diff_Engine_string",
-        "description": "Parses unified or context diffs output from eg. the diff utility."
-    },
-    "Class: Text_Diff_Engine_xdiff": {
-        "prefix": "Text_Diff_Engine_xdiff",
-        "body": "Text_Diff_Engine_xdiff",
-        "description": "Class used internally by Diff to actually compute the diffs."
-    },
-    "Class: Text_Diff_Op": {
-        "prefix": "Text_Diff_Op",
-        "body": "Text_Diff_Op",
-        "description": ""
-    },
-    "Class: Text_Diff_Op_add": {
-        "prefix": "Text_Diff_Op_add",
-        "body": "Text_Diff_Op_add",
-        "description": ""
-    },
-    "Class: Text_Diff_Op_change": {
-        "prefix": "Text_Diff_Op_change",
-        "body": "Text_Diff_Op_change",
-        "description": ""
-    },
-    "Class: Text_Diff_Op_copy": {
-        "prefix": "Text_Diff_Op_copy",
-        "body": "Text_Diff_Op_copy",
-        "description": ""
-    },
-    "Class: Text_Diff_Op_delete": {
-        "prefix": "Text_Diff_Op_delete",
-        "body": "Text_Diff_Op_delete",
-        "description": ""
-    },
-    "Class: Text_Diff_Renderer": {
-        "prefix": "Text_Diff_Renderer",
-        "body": "Text_Diff_Renderer",
-        "description": "A class to render Diffs in different formats."
-    },
-    "Class: Text_Diff_Renderer_inline": {
-        "prefix": "Text_Diff_Renderer_inline",
-        "body": "Text_Diff_Renderer_inline",
-        "description": "&quot;Inline&quot; diff renderer."
-    },
-    "Class: Text_MappedDiff": {
-        "prefix": "Text_MappedDiff",
-        "body": "Text_MappedDiff",
-        "description": "General API for generating and formatting diffs - the differences between two sequences of strings."
-    },
-    "Class: Theme_Installer_Skin": {
-        "prefix": "Theme_Installer_Skin",
-        "body": "Theme_Installer_Skin",
-        "description": "Theme Installer Skin for the WordPress Theme Installer."
-    },
-    "Class: Theme_Upgrader": {
-        "prefix": "Theme_Upgrader",
-        "body": "Theme_Upgrader",
-        "description": "Core class used for upgrading/installing themes."
-    },
-    "Class: Theme_Upgrader_Skin": {
-        "prefix": "Theme_Upgrader_Skin",
-        "body": "Theme_Upgrader_Skin",
-        "description": "Theme Upgrader Skin for WordPress Theme Upgrades."
-    },
-    "Class: Translation_Entry": {
-        "prefix": "Translation_Entry",
-        "body": "Translation_Entry",
-        "description": "Translation_Entry class encapsulates a translatable string"
-    },
-    "Class: Translations": {
-        "prefix": "Translations",
-        "body": "Translations",
-        "description": ""
-    },
-    "Class: TypeError": {
-        "prefix": "TypeError",
-        "body": "TypeError",
-        "description": ""
-    },
-    "Class: Walker": {
-        "prefix": "Walker",
-        "body": "Walker",
-        "description": "A class for displaying various tree-like structures."
-    },
-    "Class: Walker_Category": {
-        "prefix": "Walker_Category",
-        "body": "Walker_Category",
-        "description": "Core class used to create an HTML list of categories."
-    },
-    "Class: Walker_Category_Checklist": {
-        "prefix": "Walker_Category_Checklist",
-        "body": "Walker_Category_Checklist",
-        "description": "Core walker class to output an unordered list of category checkbox input elements."
-    },
-    "Class: Walker_CategoryDropdown": {
-        "prefix": "Walker_CategoryDropdown",
-        "body": "Walker_CategoryDropdown",
-        "description": "Core class used to create an HTML dropdown list of Categories."
-    },
-    "Class: Walker_Comment": {
-        "prefix": "Walker_Comment",
-        "body": "Walker_Comment",
-        "description": "Core walker class used to create an HTML list of comments."
-    },
-    "Class: Walker_Nav_Menu": {
-        "prefix": "Walker_Nav_Menu",
-        "body": "Walker_Nav_Menu",
-        "description": "Core class used to implement an HTML list of nav menu items."
-    },
-    "Class: Walker_Nav_Menu_Checklist": {
-        "prefix": "Walker_Nav_Menu_Checklist",
-        "body": "Walker_Nav_Menu_Checklist",
-        "description": "Create HTML list of nav menu input items."
-    },
-    "Class: Walker_Nav_Menu_Edit": {
-        "prefix": "Walker_Nav_Menu_Edit",
-        "body": "Walker_Nav_Menu_Edit",
-        "description": "Create HTML list of nav menu input items."
-    },
-    "Class: Walker_Page": {
-        "prefix": "Walker_Page",
-        "body": "Walker_Page",
-        "description": "Core walker class used to create an HTML list of pages."
-    },
-    "Class: Walker_PageDropdown": {
-        "prefix": "Walker_PageDropdown",
-        "body": "Walker_PageDropdown",
-        "description": "Core class used to create an HTML drop-down list of pages."
-    },
-    "Class: WP": {
-        "prefix": "WP",
-        "body": "WP",
-        "description": "WordPress environment setup class."
-    },
-    "Class: WP_Admin_Bar": {
-        "prefix": "WP_Admin_Bar",
-        "body": "WP_Admin_Bar",
-        "description": "Core class used to implement the Toolbar API."
-    },
-    "Class: WP_Ajax_Response": {
-        "prefix": "WP_Ajax_Response",
-        "body": "WP_Ajax_Response",
-        "description": "Send XML response back to Ajax request."
-    },
-    "Class: WP_Ajax_Upgrader_Skin": {
-        "prefix": "WP_Ajax_Upgrader_Skin",
-        "body": "WP_Ajax_Upgrader_Skin",
-        "description": "Upgrader Skin for Ajax WordPress upgrades."
-    },
-    "Class: wp_atom_server": {
-        "prefix": "wp_atom_server",
-        "body": "wp_atom_server",
-        "description": ""
-    },
-    "Class: WP_Automatic_Updater": {
-        "prefix": "WP_Automatic_Updater",
-        "body": "WP_Automatic_Updater",
-        "description": "Core class used for handling automatic background updates."
-    },
-    "Class: WP_Comment": {
-        "prefix": "WP_Comment",
-        "body": "WP_Comment",
-        "description": "Core class used to organize comments as instantiated objects with defined members."
-    },
-    "Class: WP_Comment_Query": {
-        "prefix": "WP_Comment_Query",
-        "body": "WP_Comment_Query",
-        "description": "Core class used for querying comments."
-    },
-    "Class: WP_Comments_List_Table": {
-        "prefix": "WP_Comments_List_Table",
-        "body": "WP_Comments_List_Table",
-        "description": "Core class used to implement displaying comments in a list table."
-    },
-    "Class: WP_Community_Events": {
-        "prefix": "WP_Community_Events",
-        "body": "WP_Community_Events",
-        "description": "Class WP_Community_Events."
-    },
-    "Class: WP_Customize_Background_Image_Control": {
-        "prefix": "WP_Customize_Background_Image_Control",
-        "body": "WP_Customize_Background_Image_Control",
-        "description": "Customize Background Image Control class."
-    },
-    "Class: WP_Customize_Background_Image_Setting": {
-        "prefix": "WP_Customize_Background_Image_Setting",
-        "body": "WP_Customize_Background_Image_Setting",
-        "description": "Customizer Background Image Setting class."
-    },
-    "Class: WP_Customize_Background_Position_Control": {
-        "prefix": "WP_Customize_Background_Position_Control",
-        "body": "WP_Customize_Background_Position_Control",
-        "description": "Customize Background Position Control class."
-    },
-    "Class: WP_Customize_Code_Editor_Control": {
-        "prefix": "WP_Customize_Code_Editor_Control",
-        "body": "WP_Customize_Code_Editor_Control",
-        "description": "Customize Code Editor Control class."
-    },
-    "Class: WP_Customize_Color_Control": {
-        "prefix": "WP_Customize_Color_Control",
-        "body": "WP_Customize_Color_Control",
-        "description": "Customize Color Control class."
-    },
-    "Class: WP_Customize_Control": {
-        "prefix": "WP_Customize_Control",
-        "body": "WP_Customize_Control",
-        "description": "Customize Control class."
-    },
-    "Class: WP_Customize_Cropped_Image_Control": {
-        "prefix": "WP_Customize_Cropped_Image_Control",
-        "body": "WP_Customize_Cropped_Image_Control",
-        "description": "Customize Cropped Image Control class."
-    },
-    "Class: WP_Customize_Custom_CSS_Setting": {
-        "prefix": "WP_Customize_Custom_CSS_Setting",
-        "body": "WP_Customize_Custom_CSS_Setting",
-        "description": "Custom Setting to handle WP Custom CSS."
-    },
-    "Class: WP_Customize_Date_Time_Control": {
-        "prefix": "WP_Customize_Date_Time_Control",
-        "body": "WP_Customize_Date_Time_Control",
-        "description": "Customize Date Time Control class."
-    },
-    "Class: WP_Customize_Filter_Setting": {
-        "prefix": "WP_Customize_Filter_Setting",
-        "body": "WP_Customize_Filter_Setting",
-        "description": "A setting that is used to filter a value, but will not save the results."
-    },
-    "Class: WP_Customize_Header_Image_Control": {
-        "prefix": "WP_Customize_Header_Image_Control",
-        "body": "WP_Customize_Header_Image_Control",
-        "description": "Customize Header Image Control class."
-    },
-    "Class: WP_Customize_Header_Image_Setting": {
-        "prefix": "WP_Customize_Header_Image_Setting",
-        "body": "WP_Customize_Header_Image_Setting",
-        "description": "A setting that is used to filter a value, but will not save the results."
-    },
-    "Class: WP_Customize_Image_Control": {
-        "prefix": "WP_Customize_Image_Control",
-        "body": "WP_Customize_Image_Control",
-        "description": "Customize Image Control class."
-    },
-    "Class: WP_Customize_Manager": {
-        "prefix": "WP_Customize_Manager",
-        "body": "WP_Customize_Manager",
-        "description": "Customize Manager class."
-    },
-    "Class: WP_Customize_Media_Control": {
-        "prefix": "WP_Customize_Media_Control",
-        "body": "WP_Customize_Media_Control",
-        "description": "Customize Media Control class."
-    },
-    "Class: WP_Customize_Nav_Menu_Auto_Add_Control": {
-        "prefix": "WP_Customize_Nav_Menu_Auto_Add_Control",
-        "body": "WP_Customize_Nav_Menu_Auto_Add_Control",
-        "description": "Customize control to represent the auto_add field for a given menu."
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_after_entry_content": {
+        "prefix": "genesis_after_entry_content",
+        "body": "genesis_after_entry_content",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_entry_footer": {
+        "prefix": "genesis_entry_footer",
+        "body": "genesis_entry_footer",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_after_entry": {
+        "prefix": "genesis_after_entry",
+        "body": "genesis_after_entry",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_after_endwhile": {
+        "prefix": "genesis_after_endwhile",
+        "body": "genesis_after_endwhile",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_loop_else": {
+        "prefix": "genesis_loop_else",
+        "body": "genesis_loop_else",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_before_post": {
+        "prefix": "genesis_before_post",
+        "body": "genesis_before_post",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_before_post_title": {
+        "prefix": "genesis_before_post_title",
+        "body": "genesis_before_post_title",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_post_title": {
+        "prefix": "genesis_post_title",
+        "body": "genesis_post_title",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_after_post_title": {
+        "prefix": "genesis_after_post_title",
+        "body": "genesis_after_post_title",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_before_post_content": {
+        "prefix": "genesis_before_post_content",
+        "body": "genesis_before_post_content",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_post_content": {
+        "prefix": "genesis_post_content",
+        "body": "genesis_post_content",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_after_post_content": {
+        "prefix": "genesis_after_post_content",
+        "body": "genesis_after_post_content",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_after_post": {
+        "prefix": "genesis_after_post",
+        "body": "genesis_after_post",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Hook: genesis_reset_loops": {
+        "prefix": "genesis_reset_loops",
+        "body": "genesis_reset_loops",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Hook: genesis_register_nav_menus": {
+        "prefix": "genesis_register_nav_menus",
+        "body": "genesis_register_nav_menus",
+        "description": "Structural Action Hook: found in - genesis/lib/structure/menu.php"
+    },
+    "Hook: genesis_admin_menu": {
+        "prefix": "genesis_admin_menu",
+        "body": "genesis_admin_menu",
+        "description": "Structural Action Hook: found in - genesis/lib/admin/menu.php"
+    },
+    "Hook: genesis_admin_init": {
+        "prefix": "genesis_admin_init",
+        "body": "genesis_admin_init",
+        "description": "Structural Action Hook: found in - genesis/lib/classes/admin.php"
+    },
+    "Filter: genesis_404_entry_title": {
+        "prefix": "genesis_404_entry_title",
+        "body": "genesis_404_entry_title",
+        "description": "Filter Hook: found in - genesis/404.php"
+    },
+    "Filter: genesis_404_entry_content": {
+        "prefix": "genesis_404_entry_content",
+        "body": "genesis_404_entry_content",
+        "description": "Filter Hook: found in - genesis/404.php"
+    },
+    "Filter: genesis_cpt_archive_settings_page_label": {
+        "prefix": "genesis_cpt_archive_settings_page_label",
+        "body": "genesis_cpt_archive_settings_page_label",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-admin-cpt-archive-settings.php"
+    },
+    "Filter: genesis_cpt_archive_settings_menu_label": {
+        "prefix": "genesis_cpt_archive_settings_menu_label",
+        "body": "genesis_cpt_archive_settings_menu_label",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-admin-cpt-archive-settings.php"
+    },
+    "Filter: genesis_cpt_archive_settings_capability_{$this->post_type->name}": {
+        "prefix": "genesis_cpt_archive_settings_capability_{$this->post_type->name}",
+        "body": "genesis_cpt_archive_settings_capability_{$this->post_type->name}",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-admin-cpt-archive-settings.php"
+    },
+    "Filter: genesis_cpt_archive_settings_label": {
+        "prefix": "genesis_cpt_archive_settings_label",
+        "body": "genesis_cpt_archive_settings_label",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-admin-cpt-archive-settings.php"
+    },
+    "Filter: genesis_export_options": {
+        "prefix": "genesis_export_options",
+        "body": "genesis_export_options",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-admin-import-export.php"
+    },
+    "Filter: genesis_term_meta_defaults": {
+        "prefix": "genesis_term_meta_defaults",
+        "body": "genesis_term_meta_defaults",
+        "description": "Filter Hook: found in - genesis/lib/admin/term-meta.php"
+    },
+    "Filter: genesis_term_meta": {
+        "prefix": "genesis_term_meta",
+        "body": "genesis_term_meta",
+        "description": "Filter Hook: found in - genesis/lib/admin/term-meta.php"
+    },
+    "Filter: genesis_term_meta_{$meta_key}": {
+        "prefix": "genesis_term_meta_{$meta_key}",
+        "body": "genesis_term_meta_{$meta_key}",
+        "description": "Filter Hook: found in - genesis/lib/admin/term-meta.php"
+    },
+    "Filter: genesis_user_meta_defaults": {
+        "prefix": "genesis_user_meta_defaults",
+        "body": "genesis_user_meta_defaults",
+        "description": "Filter Hook: found in - genesis/lib/admin/user-meta.php"
+    },
+    "Filter: genesis_breadcrumb_args": {
+        "prefix": "genesis_breadcrumb_args",
+        "body": "genesis_breadcrumb_args",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_build_crumbs": {
+        "prefix": "genesis_build_crumbs",
+        "body": "genesis_build_crumbs",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_archive_crumb": {
+        "prefix": "genesis_archive_crumb",
+        "body": "genesis_archive_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_single_crumb": {
+        "prefix": "genesis_single_crumb",
+        "body": "genesis_single_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_home_crumb": {
+        "prefix": "genesis_home_crumb",
+        "body": "genesis_home_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_blog_crumb": {
+        "prefix": "genesis_blog_crumb",
+        "body": "genesis_blog_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_search_crumb": {
+        "prefix": "genesis_search_crumb",
+        "body": "genesis_search_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_404_crumb": {
+        "prefix": "genesis_404_crumb",
+        "body": "genesis_404_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_page_crumb": {
+        "prefix": "genesis_page_crumb",
+        "body": "genesis_page_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_attachment_crumb": {
+        "prefix": "genesis_attachment_crumb",
+        "body": "genesis_attachment_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_post_crumb": {
+        "prefix": "genesis_post_crumb",
+        "body": "genesis_post_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_cpt_crumb": {
+        "prefix": "genesis_cpt_crumb",
+        "body": "genesis_cpt_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_category_crumb": {
+        "prefix": "genesis_category_crumb",
+        "body": "genesis_category_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_tag_crumb": {
+        "prefix": "genesis_tag_crumb",
+        "body": "genesis_tag_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_tax_crumb": {
+        "prefix": "genesis_tax_crumb",
+        "body": "genesis_tax_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_year_crumb": {
+        "prefix": "genesis_year_crumb",
+        "body": "genesis_year_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_month_crumb": {
+        "prefix": "genesis_month_crumb",
+        "body": "genesis_month_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_day_crumb": {
+        "prefix": "genesis_day_crumb",
+        "body": "genesis_day_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_author_crumb": {
+        "prefix": "genesis_author_crumb",
+        "body": "genesis_author_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_post_type_crumb": {
+        "prefix": "genesis_post_type_crumb",
+        "body": "genesis_post_type_crumb",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_breadcrumb_link": {
+        "prefix": "genesis_breadcrumb_link",
+        "body": "genesis_breadcrumb_link",
+        "description": "Filter Hook: found in - genesis/lib/classes/breadcrumb.php"
+    },
+    "Filter: genesis_superfish_args_url": {
+        "prefix": "genesis_superfish_args_url",
+        "body": "genesis_superfish_args_url",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-script-loader.php"
+    },
+    "Filter: genesis_toggles": {
+        "prefix": "genesis_toggles",
+        "body": "genesis_toggles",
+        "description": "Filter Hook: found in - genesis/lib/classes/class-genesis-script-loader.php"
+    },
+    "Filter: genesis_available_sanitizer_filters": {
+        "prefix": "genesis_available_sanitizer_filters",
+        "body": "genesis_available_sanitizer_filters",
+        "description": "Filter Hook: found in - genesis/lib/classes/sanitization.php"
+    },
+    "Filter: get_the_content_limit_allowedtags": {
+        "prefix": "get_the_content_limit_allowedtags",
+        "body": "get_the_content_limit_allowedtags",
+        "description": "Filter Hook: found in - genesis/lib/functions/formatting.php"
+    },
+    "Filter: get_the_content_more_link": {
+        "prefix": "get_the_content_more_link",
+        "body": "get_the_content_more_link",
+        "description": "Filter Hook: found in - genesis/lib/functions/formatting.php"
+    },
+    "Filter: get_the_content_limit": {
+        "prefix": "get_the_content_limit",
+        "body": "get_the_content_limit",
+        "description": "Filter Hook: found in - genesis/lib/functions/formatting.php"
+    },
+    "Filter: the_content_limit": {
+        "prefix": "the_content_limit",
+        "body": "the_content_limit",
+        "description": "Filter Hook: found in - genesis/lib/functions/formatting.php"
+    },
+    "Filter: genesis_sitemap_output": {
+        "prefix": "genesis_sitemap_output",
+        "body": "genesis_sitemap_output",
+        "description": "Filter Hook: found in - genesis/lib/functions/general.php"
+    },
+    "Filter: genesis_canonical_url": {
+        "prefix": "genesis_canonical_url",
+        "body": "genesis_canonical_url",
+        "description": "Filter Hook: found in - genesis/lib/functions/general.php"
+    },
+    "Filter: genesis_get_seo_meta_description": {
+        "prefix": "genesis_get_seo_meta_description",
+        "body": "genesis_get_seo_meta_description",
+        "description": "Filter Hook: found in - genesis/lib/functions/head.php"
+    },
+    "Filter: genesis_get_seo_meta_keywords": {
+        "prefix": "genesis_get_seo_meta_keywords",
+        "body": "genesis_get_seo_meta_keywords",
+        "description": "Filter Hook: found in - genesis/lib/functions/head.php"
+    },
+    "Filter: genesis_get_robots_meta_content": {
+        "prefix": "genesis_get_robots_meta_content",
+        "body": "genesis_get_robots_meta_content",
+        "description": "Filter Hook: found in - genesis/lib/functions/head.php"
+    },
+    "Filter: genesis_pre_load_favicon": {
+        "prefix": "genesis_pre_load_favicon",
+        "body": "genesis_pre_load_favicon",
+        "description": "Filter Hook: found in - genesis/lib/functions/head.php"
+    },
+    "Filter: genesis_favicon_url": {
+        "prefix": "genesis_favicon_url",
+        "body": "genesis_favicon_url",
+        "description": "Filter Hook: found in - genesis/lib/functions/head.php"
+    },
+    "Filter: genesis_get_image_default_args": {
+        "prefix": "genesis_get_image_default_args",
+        "body": "genesis_get_image_default_args",
+        "description": "Filter Hook: found in - genesis/lib/functions/image.php"
+    },
+    "Filter: genesis_pre_get_image": {
+        "prefix": "genesis_pre_get_image",
+        "body": "genesis_pre_get_image",
+        "description": "Filter Hook: found in - genesis/lib/functions/image.php"
+    },
+    "Filter: genesis_get_image": {
+        "prefix": "genesis_get_image",
+        "body": "genesis_get_image",
+        "description": "Filter Hook: found in - genesis/lib/functions/image.php"
+    },
+    "Filter: genesis_initial_layouts": {
+        "prefix": "genesis_initial_layouts",
+        "body": "genesis_initial_layouts",
+        "description": "Filter Hook: found in - genesis/lib/functions/layout.php"
+    },
+    "Filter: genesis_get_layouts": {
+        "prefix": "genesis_get_layouts",
+        "body": "genesis_get_layouts",
+        "description": "Filter Hook: found in - genesis/lib/functions/layout.php"
+    },
+    "Filter: genesis_site_layout": {
+        "prefix": "genesis_site_layout",
+        "body": "genesis_site_layout",
+        "description": "Filter Hook: found in - genesis/lib/functions/layout.php"
+    },
+    "Filter: genesis_structural_wrap-{$context}": {
+        "prefix": "genesis_structural_wrap-{$context}",
+        "body": "genesis_structural_wrap-{$context}",
+        "description": "Filter Hook: found in - genesis/lib/functions/layout.php"
+    },
+    "Filter: genesis_markup_{$args[‘context’]}": {
+        "prefix": "genesis_markup_{$args[‘context’]}",
+        "body": "genesis_markup_{$args[‘context’]}",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_markup_{$args[‘context’]}_output": {
+        "prefix": "genesis_markup_{$args[‘context’]}_output",
+        "body": "genesis_markup_{$args[‘context’]}_output",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_markup_{$args[‘context’]}_open": {
+        "prefix": "genesis_markup_{$args[‘context’]}_open",
+        "body": "genesis_markup_{$args[‘context’]}_open",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_markup_{$args[‘context’]}_close": {
+        "prefix": "genesis_markup_{$args[‘context’]}_close",
+        "body": "genesis_markup_{$args[‘context’]}_close",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_markup_open": {
+        "prefix": "genesis_markup_open",
+        "body": "genesis_markup_open",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_markup_close": {
+        "prefix": "genesis_markup_close",
+        "body": "genesis_markup_close",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_attr_{$context}": {
+        "prefix": "genesis_attr_{$context}",
+        "body": "genesis_attr_{$context}",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_attr_{$context}_output": {
+        "prefix": "genesis_attr_{$context}_output",
+        "body": "genesis_attr_{$context}_output",
+        "description": "Filter Hook: found in - genesis/lib/functions/markup.php"
+    },
+    "Filter: genesis_superfish_enabled": {
+        "prefix": "genesis_superfish_enabled",
+        "body": "genesis_superfish_enabled",
+        "description": "Filter Hook: found in - genesis/lib/functions/menu.php"
+    },
+    "Filter: genesis_pre_get_option_{$key}": {
+        "prefix": "genesis_pre_get_option_{$key}",
+        "body": "genesis_pre_get_option_{$key}",
+        "description": "Filter Hook: found in - genesis/lib/functions/options.php"
+    },
+    "Filter: genesis_options": {
+        "prefix": "genesis_options",
+        "body": "genesis_options",
+        "description": "Filter Hook: found in - genesis/lib/functions/options.php"
+    },
+    "Filter: genesis_register_sidebar_defaults": {
+        "prefix": "genesis_register_sidebar_defaults",
+        "body": "genesis_register_sidebar_defaults",
+        "description": "Filter Hook: found in - genesis/lib/functions/widgetize.php"
+    },
+    "Filter: genesis_register_widget_area_defaults": {
+        "prefix": "genesis_register_widget_area_defaults",
+        "body": "genesis_register_widget_area_defaults",
+        "description": "Filter Hook: found in - genesis/lib/functions/widgetize.php"
+    },
+    "Filter: genesis_widget_area_defaults": {
+        "prefix": "genesis_widget_area_defaults",
+        "body": "genesis_widget_area_defaults",
+        "description": "Filter Hook: found in - genesis/lib/functions/widgetize.php"
+    },
+    "Filter: genesis_sidebar_title_output": {
+        "prefix": "genesis_sidebar_title_output",
+        "body": "genesis_sidebar_title_output",
+        "description": "Filter Hook: found in - genesis/lib/functions/widgetize.php"
+    },
+    "Filter: genesis_theme_support_menus": {
+        "prefix": "genesis_theme_support_menus",
+        "body": "genesis_theme_support_menus",
+        "description": "Filter Hook: found in - genesis/lib/init.php"
+    },
+    "Filter: genesis_theme_support_structural_wraps": {
+        "prefix": "genesis_theme_support_structural_wraps",
+        "body": "genesis_theme_support_structural_wraps",
+        "description": "Filter Hook: found in - genesis/lib/init.php"
+    },
+    "Filter: genesis_settings_field": {
+        "prefix": "genesis_settings_field",
+        "body": "genesis_settings_field",
+        "description": "Filter Hook: found in - genesis/lib/init.php"
+    },
+    "Filter: genesis_seo_settings_field": {
+        "prefix": "genesis_seo_settings_field",
+        "body": "genesis_seo_settings_field",
+        "description": "Filter Hook: found in - genesis/lib/init.php"
+    },
+    "Filter: genesis_cpt_archive_settings_field_prefix": {
+        "prefix": "genesis_cpt_archive_settings_field_prefix",
+        "body": "genesis_cpt_archive_settings_field_prefix",
+        "description": "Filter Hook: found in - genesis/lib/init.php"
+    },
+    "Filter: genesis_footer_backtotop_shortcode": {
+        "prefix": "genesis_footer_backtotop_shortcode",
+        "body": "genesis_footer_backtotop_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_copyright_shortcode": {
+        "prefix": "genesis_footer_copyright_shortcode",
+        "body": "genesis_footer_copyright_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_childtheme_link_shortcode": {
+        "prefix": "genesis_footer_childtheme_link_shortcode",
+        "body": "genesis_footer_childtheme_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_genesis_link_shortcode": {
+        "prefix": "genesis_footer_genesis_link_shortcode",
+        "body": "genesis_footer_genesis_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_studiopress_link_shortcode": {
+        "prefix": "genesis_footer_studiopress_link_shortcode",
+        "body": "genesis_footer_studiopress_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_wordpress_link_shortcode": {
+        "prefix": "genesis_footer_wordpress_link_shortcode",
+        "body": "genesis_footer_wordpress_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_site_title_shortcode": {
+        "prefix": "genesis_footer_site_title_shortcode",
+        "body": "genesis_footer_site_title_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_home_link_shortcode": {
+        "prefix": "genesis_footer_home_link_shortcode",
+        "body": "genesis_footer_home_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_footer_loginout_shortcode": {
+        "prefix": "genesis_footer_loginout_shortcode",
+        "body": "genesis_footer_loginout_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/footer.php"
+    },
+    "Filter: genesis_post_date_shortcode": {
+        "prefix": "genesis_post_date_shortcode",
+        "body": "genesis_post_date_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_time_shortcode": {
+        "prefix": "genesis_post_time_shortcode",
+        "body": "genesis_post_time_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_modified_date_shortcode": {
+        "prefix": "genesis_post_modified_date_shortcode",
+        "body": "genesis_post_modified_date_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_modified_time_shortcode": {
+        "prefix": "genesis_post_modified_time_shortcode",
+        "body": "genesis_post_modified_time_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_author_shortcode": {
+        "prefix": "genesis_post_author_shortcode",
+        "body": "genesis_post_author_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_author_link_shortcode": {
+        "prefix": "genesis_post_author_link_shortcode",
+        "body": "genesis_post_author_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_author_posts_link_shortcode": {
+        "prefix": "genesis_post_author_posts_link_shortcode",
+        "body": "genesis_post_author_posts_link_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_comments_shortcode": {
+        "prefix": "genesis_post_comments_shortcode",
+        "body": "genesis_post_comments_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_tags_shortcode": {
+        "prefix": "genesis_post_tags_shortcode",
+        "body": "genesis_post_tags_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_categories_shortcode": {
+        "prefix": "genesis_post_categories_shortcode",
+        "body": "genesis_post_categories_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_terms_shortcode": {
+        "prefix": "genesis_post_terms_shortcode",
+        "body": "genesis_post_terms_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_edit_shortcode": {
+        "prefix": "genesis_post_edit_shortcode",
+        "body": "genesis_post_edit_shortcode",
+        "description": "Filter Hook: found in - genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_term_intro_text_output": {
+        "prefix": "genesis_term_intro_text_output",
+        "body": "genesis_term_intro_text_output",
+        "description": "Filter Hook: found in - genesis/lib/structure/archive.php"
+    },
+    "Filter: genesis_author_intro_text_output": {
+        "prefix": "genesis_author_intro_text_output",
+        "body": "genesis_author_intro_text_output",
+        "description": "Filter Hook: found in - genesis/lib/structure/archive.php"
+    },
+    "Filter: genesis_cpt_archive_intro_text_output": {
+        "prefix": "genesis_cpt_archive_intro_text_output",
+        "body": "genesis_cpt_archive_intro_text_output",
+        "description": "Filter Hook: found in - genesis/lib/structure/archive.php"
+    },
+    "Filter: genesis_title_comments": {
+        "prefix": "genesis_title_comments",
+        "body": "genesis_title_comments",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_prev_comments_link_text": {
+        "prefix": "genesis_prev_comments_link_text",
+        "body": "genesis_prev_comments_link_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_next_comments_link_text": {
+        "prefix": "genesis_next_comments_link_text",
+        "body": "genesis_next_comments_link_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_no_comments_text": {
+        "prefix": "genesis_no_comments_text",
+        "body": "genesis_no_comments_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_comments_closed_text": {
+        "prefix": "genesis_comments_closed_text",
+        "body": "genesis_comments_closed_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_title_pings": {
+        "prefix": "genesis_title_pings",
+        "body": "genesis_title_pings",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_no_pings_text": {
+        "prefix": "genesis_no_pings_text",
+        "body": "genesis_no_pings_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_comment_list_args": {
+        "prefix": "genesis_comment_list_args",
+        "body": "genesis_comment_list_args",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_ping_list_args": {
+        "prefix": "genesis_ping_list_args",
+        "body": "genesis_ping_list_args",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: comment_author_says_text": {
+        "prefix": "comment_author_says_text",
+        "body": "comment_author_says_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_comment_awaiting_moderation": {
+        "prefix": "genesis_comment_awaiting_moderation",
+        "body": "genesis_comment_awaiting_moderation",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_show_comment_date": {
+        "prefix": "genesis_show_comment_date",
+        "body": "genesis_show_comment_date",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_comment_form_args": {
+        "prefix": "genesis_comment_form_args",
+        "body": "genesis_comment_form_args",
+        "description": "Filter Hook: found in - genesis/lib/structure/comments.php"
+    },
+    "Filter: genesis_footer_widget_areas": {
+        "prefix": "genesis_footer_widget_areas",
+        "body": "genesis_footer_widget_areas",
+        "description": "Filter Hook: found in - genesis/lib/structure/footer.php"
+    },
+    "Filter: genesis_footer_backtotop_text": {
+        "prefix": "genesis_footer_backtotop_text",
+        "body": "genesis_footer_backtotop_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/footer.php"
+    },
+    "Filter: genesis_footer_creds_text": {
+        "prefix": "genesis_footer_creds_text",
+        "body": "genesis_footer_creds_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/footer.php"
+    },
+    "Filter: genesis_footer_output": {
+        "prefix": "genesis_footer_output",
+        "body": "genesis_footer_output",
+        "description": "Filter Hook: found in - genesis/lib/structure/footer.php"
+    },
+    "Filter: genesis_footer_scripts": {
+        "prefix": "genesis_footer_scripts",
+        "body": "genesis_footer_scripts",
+        "description": "Filter Hook: found in - genesis/lib/structure/footer.php"
+    },
+    "Filter: genesis_viewport_value": {
+        "prefix": "genesis_viewport_value",
+        "body": "genesis_viewport_value",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_canonical": {
+        "prefix": "genesis_canonical",
+        "body": "genesis_canonical",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_header_scripts": {
+        "prefix": "genesis_header_scripts",
+        "body": "genesis_header_scripts",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_site_title_wrap": {
+        "prefix": "genesis_site_title_wrap",
+        "body": "genesis_site_title_wrap",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_seo_title": {
+        "prefix": "genesis_seo_title",
+        "body": "genesis_seo_title",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_site_description_wrap": {
+        "prefix": "genesis_site_description_wrap",
+        "body": "genesis_site_description_wrap",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_seo_description": {
+        "prefix": "genesis_seo_description",
+        "body": "genesis_seo_description",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_skip_links_output": {
+        "prefix": "genesis_skip_links_output",
+        "body": "genesis_skip_links_output",
+        "description": "Filter Hook: found in - genesis/lib/structure/header.php"
+    },
+    "Filter: genesis_custom_loop_args": {
+        "prefix": "genesis_custom_loop_args",
+        "body": "genesis_custom_loop_args",
+        "description": "Filter Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Filter: genesis_grid_loop_post_class": {
+        "prefix": "genesis_grid_loop_post_class",
+        "body": "genesis_grid_loop_post_class",
+        "description": "Filter Hook: found in - genesis/lib/structure/loops.php"
+    },
+    "Filter: genesis_post_title_text": {
+        "prefix": "genesis_post_title_text",
+        "body": "genesis_post_title_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_link_post_title": {
+        "prefix": "genesis_link_post_title",
+        "body": "genesis_link_post_title",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_entry_title_wrap": {
+        "prefix": "genesis_entry_title_wrap",
+        "body": "genesis_entry_title_wrap",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_post_title_output": {
+        "prefix": "genesis_post_title_output",
+        "body": "genesis_post_title_output",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_post_info": {
+        "prefix": "genesis_post_info",
+        "body": "genesis_post_info",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_edit_post_link": {
+        "prefix": "genesis_edit_post_link",
+        "body": "genesis_edit_post_link",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php and genesis/lib/shortcodes/post.php"
+    },
+    "Filter: genesis_post_permalink": {
+        "prefix": "genesis_post_permalink",
+        "body": "genesis_post_permalink",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_noposts_text": {
+        "prefix": "genesis_noposts_text",
+        "body": "genesis_noposts_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_post_meta": {
+        "prefix": "genesis_post_meta",
+        "body": "genesis_post_meta",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_author_box_gravatar_size": {
+        "prefix": "genesis_author_box_gravatar_size",
+        "body": "genesis_author_box_gravatar_size",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_author_box_title": {
+        "prefix": "genesis_author_box_title",
+        "body": "genesis_author_box_title",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_author_box": {
+        "prefix": "genesis_author_box",
+        "body": "genesis_author_box",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_prev_link_text": {
+        "prefix": "genesis_prev_link_text",
+        "body": "genesis_prev_link_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_next_link_text": {
+        "prefix": "genesis_next_link_text",
+        "body": "genesis_next_link_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/post.php"
+    },
+    "Filter: genesis_search_text": {
+        "prefix": "genesis_search_text",
+        "body": "genesis_search_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/search.php"
+    },
+    "Filter: genesis_search_button_text": {
+        "prefix": "genesis_search_button_text",
+        "body": "genesis_search_button_text",
+        "description": "Filter Hook: found in - genesis/lib/structure/search.php"
+    },
+    "Filter: genesis_search_form_label": {
+        "prefix": "genesis_search_form_label",
+        "body": "genesis_search_form_label",
+        "description": "Filter Hook: found in - genesis/lib/structure/search.php"
+    },
+    "Filter: genesis_search_form": {
+        "prefix": "genesis_search_form",
+        "body": "genesis_search_form",
+        "description": "Filter Hook: found in - genesis/lib/structure/search.php"
+    },
+    "Filter: genesis_featured_page_title": {
+        "prefix": "genesis_featured_page_title",
+        "body": "genesis_featured_page_title",
+        "description": "Filter Hook: found in - genesis/lib/widgets/featured-page-widget.php"
+    },
+    "Filter: genesis_featured_post_title": {
+        "prefix": "genesis_featured_post_title",
+        "body": "genesis_featured_post_title",
+        "description": "Filter Hook: found in - genesis/lib/widgets/featured-post-widget.php"
+    },
+    "Filter: genesis_gravatar_sizes": {
+        "prefix": "genesis_gravatar_sizes",
+        "body": "genesis_gravatar_sizes",
+        "description": "Filter Hook: found in - genesis/lib/widgets/user-profile-widget.php"
+    },
+    "Filter: genesis_search_title_text": {
+        "prefix": "genesis_search_title_text",
+        "body": "genesis_search_title_text",
+        "description": "Filter Hook: found in - genesis/search.php"
+    },
+    "Filter: genesis_search_title_output": {
+        "prefix": "genesis_search_title_output",
+        "body": "genesis_search_title_output",
+        "description": "Filter Hook: found in - genesis/search.php"
     },
     "Class: WP_Customize_Nav_Menu_Control": {
         "prefix": "WP_Customize_Nav_Menu_Control",
