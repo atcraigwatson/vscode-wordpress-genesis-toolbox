@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.1] - 2018-03-20
+### Updated
+- Added **Admin Management** and **Author Box** snippets from StudioPress Docs
+
 ## [1.0.0] - 2018-03-19
 ### Rerelease
 - Rereleased under new name "VSCODE WordPress Genesis Toolbox".
