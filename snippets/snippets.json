@@ -250,11 +250,6 @@
         "body": "genesis_entry_content",
         "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
     },
-    "Hook: IXR_IntrospectionServer": {
-        "prefix": "IXR_IntrospectionServer",
-        "body": "IXR_IntrospectionServer",
-        "description": "Structural Action Hook: found in - genesis/lib/structure/loops.php"
-    },
     "Hook: genesis_after_entry_content": {
         "prefix": "genesis_after_entry_content",
         "body": "genesis_after_entry_content",
