@@ -8,6 +8,7 @@ This project was forked from Jason's [VSCode WordPress Toolbox](https://github.c
 ### Carrie Dills
 Thanks to Carrie for her comprehensive list of hooks and filters for the Genesis Framework found here - https://carriedils.com/genesis-hook-reference/
 
+### StudioPress
 Thanks to StudioPress for providing the snippets that are being added incrementally as patch releases, you can find them all here - https://my.studiopress.com/documentation/snippets/
 
 ## Quick Note
