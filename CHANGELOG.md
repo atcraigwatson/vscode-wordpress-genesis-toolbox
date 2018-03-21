@@ -1,12 +1,19 @@
 # Change Log
 
+## [1.1.2] - 2018-04-20
+### Updated
+- Added **Breadcrumb** snippets from StudioPress Docs.
+- README.md now correctly mentions the sources needed to create this project.
+### Fixed
+- Function prefixes now type both the hooked function and the function name together.
+
 ## [1.1.1] - 2018-03-20
 ### Updated
-- Added **Admin Management** and **Author Box** snippets from StudioPress Docs
+- Added **Admin Management** and **Author Box** snippets from StudioPress Docs.
 
 ## [1.0.0] - 2018-03-19
 ### Rerelease
-- Rereleased under new name "VSCODE WordPress Genesis Toolbox".
+- Rereleased under new name "VSCODE WordPress Genesis Toolbox" after forking from [VSCode WordPress Toolbox](https://github.com/jason-pomerleau/vscode-wordpress-toolbox).
 - Updated all snippets to be genesis specific.
 
 ## [1.1.2] - 2018-02-06
