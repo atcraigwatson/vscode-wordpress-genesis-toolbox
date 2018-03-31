@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.4] - 2018-03-31
+### Fixed
+- Some tab stops were misplaced
+
 ## [1.1.3] - 2018-03-31
 ### Update
 - Reorganize snippents to fall under the following categories: `Hooks`, `Filters`, `Functions` and `Mods`.

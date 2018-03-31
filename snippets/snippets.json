@@ -1209,8 +1209,8 @@
             "//* Customize the author box title.",
             "add_filter( 'genesis_author_box_title', '${1:prefix}_author_box_title' );",
             "function ${1:prefix}_author_box_title() {",
-            "\treturn ${2:'<strong>About the Author</strong>'};",
-            "}"
+            "\treturn '${2:<strong>About the Author</strong>}';",
+            "}${0}"
         ],
         "description": "Customize the author box title."
     },
@@ -1221,7 +1221,7 @@
             "add_filter( 'genesis_author_box_gravatar_size', '${1:prefix}_author_box_gravatar_size' );",
             "function ${1:prefix}_author_box_gravatar_size( \\$size) {",
             "\treturn ${2:80};",
-            "}"
+            "}${0}"
         ],
         "description": "Modify the size of the Gravatar in the author box."
     },
@@ -1231,8 +1231,8 @@
             "//* Modify Home breadcrumb link.",
             "add_filter( 'genesis_breadcrumb_homelink', '${1:prefix}_breadcrumb_home_link' );",
             "function ${1:prefix}_breadcrumb_home_link( \\$crumb ) {",
-            "\treturn preg_replace( '/href=\"[^\"]*\"/', ${2:'href=\"http://example.com/home\"'}, \\$crumb );",
-            "}"
+            "\treturn preg_replace( '/href=\"[^\"]*\"/', '${2:href=\"http://example.com/home\"}', \\$crumb );",
+            "}${0}"
         ],
         "description": "Modify Home breadcrumb link."
     },
@@ -1269,7 +1269,7 @@
             "\t${32:\\$args['labels']['post_type'] = }${33:'Archives for ';}",
             "\t${34:\\$args['labels']['404'] = }${35:'Not found: ';}",
             "\treturn \\$args",
-            "}"
+            "}${0}"
         ],
         "description": "Modify breadcrumb arguments."
     },
@@ -1286,7 +1286,7 @@
             "\t${5:unregister_widget( 'Genesis_Menu_Pages_Widget' );}",
             "\t${6:unregister_widget( 'Genesis_User_Profile_Widget' );}",
             "\t${7:unregister_widget( 'Genesis_Widget_Menu_Categories' );}",
-            "}"
+            "}${0}"
         ],
         "description": "Unregister Genesis widgets."
     },
@@ -1337,7 +1337,7 @@
             "add_filter( 'comment_author_says_text', '{$1:prefix}_modify_comment_author_says_text' );",
             "function {$1:prefix}_modify_comment_author_says_text() {",
             "\treturn '${2:author says}';",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify the author says text in comments."
     },
@@ -1348,7 +1348,7 @@
             "add_filter( 'genesis_post_info', '{$1:prefix}_modify_comments_link_text' );",
             "function {$1:prefix}_modify_comments_link_text( \\$post_info ) {",
             "\treturn '[post_comments zero=\"{$2:Leave a Comment}\" one=\"{$3:1 Comment}\" more=\"{4:% Comments}\"]';",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify the comment link text in comments."
     },
@@ -1358,9 +1358,9 @@
             "//* Modify comments title text in comments.",
             "add_filter( 'genesis_title_comments', '{$1:prefix}_modify_comments_title_text_in_comments' );",
             "function {$1:prefix}_modify_comments_title_text_in_comments() {",
-            "\t$title = '{$2:<h3>Discussion</h3>}';",
+            "\t$title = '<h3>{$2:Discussion}</h3>';",
             "\treturn $title;",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify comments title text in comments."
     },
@@ -1372,7 +1372,7 @@
             "function {$1:prefix}_modify_comments_gravatar_size( \\$args ) {",
             "\t$args['avatar_size'] = ${2:96};",
             "\treturn $args;",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify the size of the Gravatar in comments."
     },
@@ -1384,7 +1384,7 @@
             "function {$1:prefix}_modify_leave_a_comment_text( \\$defaults ) {",
             "\t$defaults['title_reply'] = __( '${2:Leave a Comment}' );",
             "\treturn $defaults;",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify the leave a comment title in comments."
     },
@@ -1395,7 +1395,7 @@
             "add_filter( 'genesis_title_pings', '{$1:prefix}_modify_title_pings' );",
             "function {$1:prefix}_modify_title_pings() {",
             "\techo '<h3>${2:Trackbacks}</h3>';",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify trackbacks title in comments."
     },
@@ -1407,7 +1407,7 @@
             "function {$1:prefix}_modify_comments_submit_button_text( \\$defaults ) {",
             "\t$defaults['label_submit'] = __( 'Submit', ${2:Custom}' );",
             "\treturn $defaults;",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Modify the submit button text in comments."
     },
@@ -1424,7 +1424,7 @@
             "\t</div>",
             "\t<?php",
             "\t}",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Add a comment policy box in comments."
     },
@@ -1434,9 +1434,9 @@
             "//* Remove comment form allowed tags.",
             "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_remove_comment_form_allowed_tags' );",
             "function {$1:prefix}_modify_remove_comment_form_allowed_tags( \\$defaults ) {",
-            "\t$defaults['comment_notes_after'] = '';",
+            "\t$defaults['comment_notes_after'] = '${2:string}';",
             "\treturn $defaults;",
-            "}${0:}"
+            "}${0}"
         ],
         "description": "Remove comment form allowed tags."
     }
