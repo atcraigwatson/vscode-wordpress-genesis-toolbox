@@ -1,6 +1,16 @@
 # Change Log
 
-## [1.1.2] - 2018-04-20
+## [1.1.3] - 2018-03-31
+### Update
+- Reorganize snippents to fall under the following categories: `Hooks`, `Filters`, `Functions` and `Mods`.
+- For the `Mod` add new prefix for easy searching, this is now `genesis_mod_*`, it will bring up a list of all pre-defined mods.
+- Each `Mod` is in the process of being categorised into sub cats. Example: `genesis_mod_layout_*` or `genesis_mod_comments_*` to help search quicker.
+- Added the **Comments** snippets from StudioPress Docs.
+- Updated README.md to include sources and contributing/issues.
+## Fixed
+- Integer being returned and string.
+
+## [1.1.2] - 2018-03-20
 ### Updated
 - Added **Breadcrumb** snippets from StudioPress Docs.
 - README.md now correctly mentions the sources needed to create this project.
