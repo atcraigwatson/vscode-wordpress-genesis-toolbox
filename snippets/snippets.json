@@ -1156,7 +1156,7 @@
             "//* Modify the size of the Gravatar in the author box.",
             "add_filter( 'genesis_author_box_gravatar_size', '${1:prefix}_author_box_gravatar_size' );",
             "function ${1:prefix}_author_box_gravatar_size( \\$size) {",
-            "\treturn ${2:'80'};",
+            "\treturn ${2:80};",
             "}"
         ],
         "description": "Modify the size of the Gravatar in the author box."
