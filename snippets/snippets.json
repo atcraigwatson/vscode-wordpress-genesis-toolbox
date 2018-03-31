@@ -1075,72 +1075,88 @@
         "body": "genesis_search_title_output",
         "description": "Filter Hook: found in - genesis/search.php"
     },
-    "Filter: genesis_force_content-sidebar-layout": {
-        "prefix": "genesis_force_content-sidebar-layout",
+    "Function: genesis_markup": {
+        "prefix": "genesis_markup",
+        "body": [
+            "genesis_markup( array(${0}",
+            "\t${1:'html5'   => }${2:string,}",
+            "\t${3:'xhtml'   => }${4:string,}",
+            "\t${5:'context' => }${6:string,}",
+            "\t${7:'open'    => }${8:string,}",
+            "\t${9:'close'   => }${10:string,}",
+            "\t${11:'content' => }${12:string,}",
+            "\t${13:'echo'    => }${14:bool,}",
+            "\t${15:'params'  => }${16:array()}",
+            ");"
+        ],
+        "description": "Function to output markup conditionally. Frount in - genesis/lib/functions/markup.php line 45."
+    },
+    "Mod: genesis_mod_force_content-sidebar-layout": {
+        "prefix": "genesis_mod_force_content-sidebar-layout",
         "body": [
             "//* Force content-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );"
         ],
         "description": "Force content-sidebar layout setting."
     },
-    "Filter: genesis_force_sidebar-content-layout": {
-        "prefix": "genesis_force_sidebar-content-layout",
+    "Mod: genesis_mod_force_sidebar-content-layout": {
+        "prefix": "genesis_mod_force_sidebar-content-layout",
         "body": [
             "//* Force sidebar-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content' );"
         ],
         "description": "Force sidebar-content layout setting."
     },
-    "Filter: genesis_force_content-sidebar-sidebar-layout": {
-        "prefix": "genesis_force_content-sidebar-sidebar-layout",
+    "Mod: genesis_mod_force_content-sidebar-sidebar-layout": {
+        "prefix": "genesis_mod_force_content-sidebar-sidebar-layout",
         "body": [
             "//* Force content-sidebar-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar_sidebar' );"
         ],
         "description": "Force content-sidebar-sidebar layout setting."
     },
-    "Filter: genesis_force_sidebar-sidebar-content-layout": {
-        "prefix": "genesis_force_sidebar-sidebar-content-layout",
+    "Mod: genesis_mod_force_sidebar-sidebar-content-layout": {
+        "prefix": "genesis_mod_force_sidebar-sidebar-content-layout",
         "body": [
             "//* Force sidebar-sidebar-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_sidebar_content' );"
         ],
         "description": "Force sidebar-sidebar-content layout setting."
     },
-    "Filter: genesis_force_sidebar-content-sidebar-layout": {
-        "prefix": "genesis_force_sidebar-content-sidebar-layout",
+    "Mod: genesis_mod_force_sidebar-content-sidebar-layout": {
+        "prefix": "genesis_mod_force_sidebar-content-sidebar-layout",
         "body": [
             "//* Force sidebar-content-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content_sidebar' );"
         ],
         "description": "Force sidebar-content-sidebar layout setting"
     },
-    "Filter: genesis_force_full-width-layout": {
-        "prefix": "genesis_force_full-width-layout",
+    "Mod: genesis_mod_force_full-width-layout": {
+        "prefix": "genesis_mod_force_full-width-layout",
         "body": [
             "//* Force full-width layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );"
         ],
         "description": "Force full-width layout setting"
     },
-    "Filter: genesis_display_author_box_on_single_post": {
-        "prefix": "genesis_display_author_box_on_single_post",
+    "Mod: genesis_mod_display_author_box_on_single_post": {
+        "prefix": "genesis_mod_display_author_box_on_single_post",
         "body": [
             "//* Display author box on single posts.",
             "add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );"
         ],
         "description": "Display author box on single posts"
     },
-    "Filter: genesis_display_author_box_on_archive_pages": {
-        "prefix": "genesis_display_author_box_on_archive_pages",
+    "Mod: genesis_mod_display_author_box_on_archive_pages": {
+        "prefix": "genesis_mod_display_author_box_on_archive_pages",
         "body": [
             "//* Display author box on archive pages.",
             "add_filter( 'get_the_author_genesis_author_box_archive', '__return_true' );"
         ],
         "description": "Display author box on archive pages"
     },
-    "Filter: genesis_customize_author_box_title": {
-        "prefix": "genesis_customize_author_box_title",
+    "Mod: genesis_mod_customize_author_box_title": {
+        "prefix": "genesis_mod_customize_author_box_title",
         "body": [
             "//* Customize the author box title.",
             "add_filter( 'genesis_author_box_title', '${1:prefix}_author_box_title' );",
@@ -1150,8 +1166,8 @@
         ],
         "description": "Customize the author box title."
     },
-    "Filter: genesis_customize_author_box_gravatar_size": {
-        "prefix": "genesis_customize_author_box_gravatar_size",
+    "Mod: genesis_mod_author_box_gravatar_size": {
+        "prefix": "genesis_mod_author_box_gravatar_size",
         "body": [
             "//* Modify the size of the Gravatar in the author box.",
             "add_filter( 'genesis_author_box_gravatar_size', '${1:prefix}_author_box_gravatar_size' );",
@@ -1161,8 +1177,8 @@
         ],
         "description": "Modify the size of the Gravatar in the author box."
     },
-    "Filter: genesis_customize_breadcrumb_home_link": {
-        "prefix": "genesis_customize_breadcrumb_home_link",
+    "Mod: genesis_mod_breadcrumb_home_link": {
+        "prefix": "genesis_mod_breadcrumb_home_link",
         "body": [
             "//* Modify Home breadcrumb link.",
             "add_filter( 'genesis_breadcrumb_homelink', '${1:prefix}_breadcrumb_home_link' );",
@@ -1172,8 +1188,8 @@
         ],
         "description": "Modify Home breadcrumb link."
     },
-    "Filter: genesis_customize_breadcrumb_arguments": {
-        "prefix": "genesis_customize_breadcrumb_arguments",
+    "Mod: genesis_mod_breadcrumb_arguments": {
+        "prefix": "genesis_mod_breadcrumb_arguments",
         "body": [
             "//* Modify breadcrumb arguments.",
             "add_filter( 'genesis_breadcrumb_args', '${1:prefix}_breadcrumb_args' );",
@@ -1200,72 +1216,56 @@
         ],
         "description": "Modify breadcrumb arguments."
     },
-    "Function: genesis_markup": {
-        "prefix": "genesis_markup",
-        "body": [
-            "genesis_markup( array(${0}",
-            "\t${1:'html5'   => }${2:string,}",
-            "\t${3:'xhtml'   => }${4:string,}",
-            "\t${5:'context' => }${6:string,}",
-            "\t${7:'open'    => }${8:string,}",
-            "\t${9:'close'   => }${10:string,}",
-            "\t${11:'content' => }${12:string,}",
-            "\t${13:'echo'    => }${14:bool,}",
-            "\t${15:'params'  => }${16:array()}",
-            ");"
-        ],
-        "description": "Function to output markup conditionally. Frount in - genesis/lib/functions/markup.php line 45."
-    },
-    "Function: genesis_unregister_content_sidebar_layout": {
-        "prefix": "genesis_unregister_content_sidebar_layout",
+    "Mod: genesis_mod_unregister_content_sidebar_layout": {
+        "prefix": "genesis_mod_unregister_content_sidebar_layout",
         "body": [
             "//* Unregister content/sidebar layout setting.",
             "genesis_unregister_layout( 'content-sidebar' );"
         ],
         "description": "Unregister content/sidebar layout setting."
     },
-    "Function: genesis_unregister_sidebar_content_layout": {
-        "prefix": "genesis_unregister_sidebar_content_layout",
+    "Mod: genesis_mod_unregister_sidebar_content_layout": {
+        "prefix": "genesis_mod_unregister_sidebar_content_layout",
         "body": [
             "//* Unregister sidebar/content layout setting.",
             "genesis_unregister_layout( 'sidebar-content' );"
         ],
         "description": "Unregister sidebar/content layout setting."
     },
-    "Function: genesis_unregister_content_sidebar_sidebar_layout": {
-        "prefix": "genesis_unregister_content_sidebar_sidebar_layout",
+    "Mod: genesis_mod_unregister_content_sidebar_sidebar_layout": {
+        "prefix": "genesis_mod_unregister_content_sidebar_sidebar_layout",
         "body": [
             "//* Unregister content/sidebar/sidebar layout setting.",
             "genesis_unregister_layout( 'content-sidebar-sidebar' );"
         ],
         "description": "Unregister content/sidebar/sidebar layout setting."
     },
-    "Function: genesis_unregister_sidebar_sidebar_content_layout": {
-        "prefix": "genesis_unregister_sidebar_sidebar_content_layout",
+    "Mod: genesis_mod_unregister_sidebar_sidebar_content_layout": {
+        "prefix": "genesis_mod_unregister_sidebar_sidebar_content_layout",
         "body": [
             "//* Unregister sidebar/sidebar/content layout setting.",
             "genesis_unregister_layout( 'sidebar-sidebar-content' );"
         ],
         "description": "Unregister sidebar/sidebar/content layout setting."
     },
-    "Function: genesis_unregister_sidebar_content_sidebar_layout": {
-        "prefix": "genesis_unregister_sidebar_content_sidebar_layout",
+    "Mod: genesis_mod_unregister_sidebar_content_sidebar_layout": {
+        "prefix": "genesis_mod_unregister_sidebar_content_sidebar_layout",
         "body": [
             "//* Unregister sidebar/content/sidebar layout setting.",
             "genesis_unregister_layout( 'sidebar-content-sidebar' );"
         ],
         "description": "Unregister sidebar/content/sidebar layout setting."
     },
-    "Function: genesis_unregister_full_width_content_layout": {
-        "prefix": "genesis_unregister_full_width_content_layout",
+    "Mod: genesis_mod_unregister_full_width_content_layout": {
+        "prefix": "genesis_mod_unregister_full_width_content_layout",
         "body": [
             "//* Unregister full-width content layout setting.",
             "genesis_unregister_layout( 'full-width-content' );"
         ],
         "description": "Unregister full-width content layout setting."
     },
-    "Function: genesis_unregister_widgets": {
-        "prefix": "genesis_unregister_widgets",
+    "Mod: genesis_mod_unregister_widgets": {
+        "prefix": "genesis_mod_unregister_widgets",
         "body": [
             "//* Unregister Genesis widgets.",
             "add_action( 'widgets_init', 'unregister_genesis_widgets', 20 );",
@@ -1281,24 +1281,24 @@
         ],
         "description": "Unregister Genesis widgets."
     },
-    "Action: genesis_remove_inpost_seo": {
-        "prefix": "genesis_remove_inpost_seo",
+    "Mod: genesis_mod_remove_inpost_seo": {
+        "prefix": "genesis_mod_remove_inpost_seo",
         "body": [
             "//* Remove Genesis in-post SEO Settings.",
             "remove_action( 'admin_menu', 'genesis_add_inpost_seo_box' );"
         ],
         "description": "Remove Genesis in-post SEO Settings."
     },
-    "Action: genesis_remove_author_box_on_single_post": {
-        "prefix": "genesis_remove_author_box_on_single_post",
+    "Mod: genesis_mod_remove_author_box_on_single_post": {
+        "prefix": "genesis_mod_remove_author_box_on_single_post",
         "body": [
             "//* Remove the author box on single posts HTML5 Themes.",
             "remove_action( 'genesis_after_entry', 'genesis_do_author_box_single', 8 );"
         ],
         "description": "Remove the author box on single posts HTML5 Themes."
     },
-    "Action: genesis_reposition_breacrumbs": {
-        "prefix": "genesis_reposition_breacrumbs",
+    "Mod: genesis_mod_reposition_breacrumbs": {
+        "prefix": "genesis_mod_reposition_breacrumbs",
         "body": [
             "//* Reposition the breadcrumbs.",
             "remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );",
@@ -1306,24 +1306,24 @@
         ],
         "description": "Reposition the breadcrumbs."
     },
-    "Theme Support: genesis_remove_layout_settings": {
-        "prefix": "genesis_remove_layout_settings",
+    "Mod: genesis_mod_remove_layout_settings": {
+        "prefix": "genesis_mod_remove_layout_settings",
         "body": [
             "//* Remove Genesis Layout Settings.",
             "remove_theme_support( 'genesis-inpost-layouts' );"
         ],
         "description": "Remove Genesis Layout Settings."
     },
-    "Theme Support: genesis_remove_admin_menu": {
-        "prefix": "genesis_remove_admin_menu",
+    "Mod: genesis_mod_remove_admin_menu": {
+        "prefix": "genesis_mod_remove_admin_menu",
         "body": [
             "//* Remove Genesis menu link.",
             "remove_theme_support( 'genesis-admin-menu' );"
         ],
         "description": "Remove Genesis admin menu link."
     },
-    "Theme Support: genesis_remove_seo_settings_menu_link": {
-        "prefix": "genesis_remove_seo_settings_menu_link",
+    "Mod: genesis_mod_remove_seo_settings_menu_link": {
+        "prefix": "genesis_mod_remove_seo_settings_menu_link",
         "body": [
             "//* Remove Genesis SEO Settings menu link.",
             "remove_theme_support( 'genesis-seo-settings-menu' );"
