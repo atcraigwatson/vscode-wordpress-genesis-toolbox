@@ -1,5 +1,10 @@
 # The First WordPress Genesis snippet collection for Visual Studio Code
 
+## Contributing
+This project is aimed at helping folks using Genesis to work faster and more efficiently.
+
+To contribute, feel free to log and [issues here on GitHub](https://github.com/atcraigwatson/vscode-wordpress-genesis-toolbox/issues), or folk the project and submit a PR.
+
 ## Sources
 
 ### Jason Pomerleau
