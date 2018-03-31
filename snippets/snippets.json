@@ -1329,5 +1329,115 @@
             "remove_theme_support( 'genesis-seo-settings-menu' );"
         ],
         "description": "Remove Genesis SEO Settings menu link."
+    },
+    "Mod: genesis_mod_comments_author_says_text": {
+        "prefix": "genesis_mod_comments_author_says_text",
+        "body": [
+            "//* Modify the author says text in comments.",
+            "add_filter( 'comment_author_says_text', '{$1:prefix}_modify_comment_author_says_text' );",
+            "function {$1:prefix}_modify_comment_author_says_text() {",
+            "\treturn '${2:author says}';",
+            "}${0:}"
+        ],
+        "description": "Modify the author says text in comments."
+    },
+    "Mod: genesis_mod_comments_link_text": {
+        "prefix": "genesis_mod_comments_link_text",
+        "body": [
+            "//* Modify the comment link text in comments.",
+            "add_filter( 'genesis_post_info', '{$1:prefix}_modify_comments_link_text' );",
+            "function {$1:prefix}_modify_comments_link_text( $post_info ) {",
+            "\treturn '[post_comments zero=\"{$2:Leave a Comment}\" one=\"{$3:1 Comment}\" more=\"{4:% Comments}\"]';",
+            "}${0:}"
+        ],
+        "description": "Modify the comment link text in comments."
+    },
+    "Mod: genesis_mod_comments_title": {
+        "prefix": "genesis_mod_comments_title",
+        "body": [
+            "//* Modify comments title text in comments.",
+            "add_filter( 'genesis_title_comments', '{$1:prefix}_modify_comments_title_text_in_comments' );",
+            "function {$1:prefix}_modify_comments_title_text_in_comments() {",
+            "\t$title = '{$2:<h3>Discussion</h3>}';",
+            "\treturn $title;",
+            "}${0:}"
+        ],
+        "description": "Modify comments title text in comments."
+    },
+    "Mod: genesis_mod_comments_gravatar_size": {
+        "prefix": "genesis_mod_comments_gravatar_size",
+        "body": [
+            "//* Modify the size of the Gravatar in comments.",
+            "add_filter( 'genesis_comment_list_args', '{$1:prefix}_modify_comments_gravatar_size' );",
+            "function {$1:prefix}_modify_comments_gravatar_size( $args ) {",
+            "\t$args['avatar_size'] = ${2:96};",
+            "\treturn $args;",
+            "}${0:}"
+        ],
+        "description": "Modify the size of the Gravatar in comments."
+    },
+    "Mod: genesis_mod_comments_leave_a_comment_text": {
+        "prefix": "genesis_mod_comments_leave_a_comment_text",
+        "body": [
+            "//* Modify the leave a comment title in comments.",
+            "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_leave_a_comment_text' );",
+            "function {$1:prefix}_modify_leave_a_comment_text( $defaults ) {",
+            "\t$defaults['title_reply'] = __( '${2:Leave a Comment}' );",
+            "\treturn $defaults;",
+            "}${0:}"
+        ],
+        "description": "Modify the leave a comment title in comments."
+    },
+    "Mod: genesis_mod_comments_trackbacks_title_in_comments": {
+        "prefix": "genesis_mod_comments_trackbacks_title_in_comments",
+        "body": [
+            "//* Modify trackbacks title in comments.",
+            "add_filter( 'genesis_title_pings', '{$1:prefix}_modify_title_pings' );",
+            "function {$1:prefix}_modify_title_pings() {",
+            "\techo '<h3>${2:Trackbacks}</h3>';",
+            "}${0:}"
+        ],
+        "description": "Modify trackbacks title in comments."
+    },
+    "Mod: genesis_mod_comments_sumbit_button_text": {
+        "prefix": "genesis_mod_comments_sumbit_button_text",
+        "body": [
+            "//* Modify the submit button text in comments.",
+            "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_comments_submit_button_text' );",
+            "function {$1:prefix}_modify_comments_submit_button_text( $defaults ) {",
+            "\t$defaults['label_submit'] = __( 'Submit', ${2:Custom}' );",
+            "\treturn $defaults;",
+            "}${0:}"
+        ],
+        "description": "Modify the submit button text in comments."
+    },
+    "Mod: genesis_mod_comments_add_policy_box_after_comments": {
+        "prefix": "genesis_mod_comments_add_policy_box_after_comments",
+        "body": [
+            "//* Add a comment policy box in comments.",
+            "add_action( 'genesis_after_comments', '{$1:prefix}_modify_add_comments_policy_box_after_comments' );",
+            "function {$1:prefix}_modify_add_comments_policy_box_after_comments() {",
+            "\tif ( is_single() && !is_user_logged_in() && comments_open() ) {",
+            "\t?>",
+            "\t<div class=\"comment-policy-box\">",
+            "\t\t<p class=\"comment-policy\"><small><strong>{$2:Comment Policy:}</strong>{$3:Your words are your own, so be nice and helpful if you can. Please, only use your real name and limit the amount of links submitted in your comment. We accept clean XHTML in comments, but don't overdo it please.}</small></p>",
+            "\t</div>",
+            "\t<?php",
+            "\t}",
+            "}${0:}"
+        ],
+        "description": "Add a comment policy box in comments."
+    },
+    "Mod: genesis_mod_comments_remove_comment_from_allowed_tags": {
+        "prefix": "genesis_mod_comments_remove_comment_from_allowed_tags",
+        "body": [
+            "//* Remove comment form allowed tags.",
+            "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_remove_comment_form_allowed_tags' );",
+            "function {$1:prefix}_modify_remove_comment_form_allowed_tags( $defaults ) {",
+            "\t$defaults['comment_notes_after'] = '';",
+            "\treturn $defaults;",
+            "}${0:}"
+        ],
+        "description": "Remove comment form allowed tags."
     }
 }
