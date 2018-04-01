@@ -1094,7 +1094,7 @@
     "Mod: genesis_mod_layout_force_content_sidebar_layout": {
         "prefix": "genesis_mod_layout_force_content_sidebar_layout",
         "body": [
-            "//* Force content-sidebar layout setting.",
+            "// Force content-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );"
         ],
         "description": "Force content-sidebar layout setting."
@@ -1102,7 +1102,7 @@
     "Mod: genesis_mod_layout_force_sidebar_content_layout": {
         "prefix": "genesis_mod_layout_force_sidebar_content_layout",
         "body": [
-            "//* Force sidebar-content layout setting.",
+            "// Force sidebar-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content' );"
         ],
         "description": "Force sidebar-content layout setting."
@@ -1110,7 +1110,7 @@
     "Mod: genesis_mod_layout_force_content_sidebar_sidebar_layout": {
         "prefix": "genesis_mod_layout_force_content_sidebar_sidebar_layout",
         "body": [
-            "//* Force content-sidebar-sidebar layout setting.",
+            "// Force content-sidebar-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar_sidebar' );"
         ],
         "description": "Force content-sidebar-sidebar layout setting."
@@ -1118,7 +1118,7 @@
     "Mod: genesis_mod_layout_force_sidebar_sidebar_content_layout": {
         "prefix": "genesis_mod_layout_force_sidebar_sidebar_content_layout",
         "body": [
-            "//* Force sidebar-sidebar-content layout setting.",
+            "// Force sidebar-sidebar-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_sidebar_content' );"
         ],
         "description": "Force sidebar-sidebar-content layout setting."
@@ -1126,7 +1126,7 @@
     "Mod: genesis_mod_layout_force_sidebar_content_sidebar_layout": {
         "prefix": "genesis_mod_layout_force_sidebar_content_sidebar_layout",
         "body": [
-            "//* Force sidebar-content-sidebar layout setting.",
+            "// Force sidebar-content-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content_sidebar' );"
         ],
         "description": "Force sidebar-content-sidebar layout setting"
@@ -1134,7 +1134,7 @@
     "Mod: genesis_mod_layout_force_full_width_layout": {
         "prefix": "genesis_mod_layout_force_full_width_layout",
         "body": [
-            "//* Force full-width layout setting.",
+            "// Force full-width layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );"
         ],
         "description": "Force full-width layout setting"
@@ -1142,7 +1142,7 @@
     "Mod: genesis_mod_layout_unregister_content_sidebar_layout": {
         "prefix": "genesis_mod_layout_unregister_content_sidebar_layout",
         "body": [
-            "//* Unregister content/sidebar layout setting.",
+            "// Unregister content/sidebar layout setting.",
             "genesis_unregister_layout( 'content-sidebar' );"
         ],
         "description": "Unregister content/sidebar layout setting."
@@ -1150,7 +1150,7 @@
     "Mod: genesis_mod_layout_unregister_sidebar_content_layout": {
         "prefix": "genesis_mod_layout_unregister_sidebar_content_layout",
         "body": [
-            "//* Unregister sidebar/content layout setting.",
+            "// Unregister sidebar/content layout setting.",
             "genesis_unregister_layout( 'sidebar-content' );"
         ],
         "description": "Unregister sidebar/content layout setting."
@@ -1158,7 +1158,7 @@
     "Mod: genesis_mod_layout_unregister_content_sidebar_sidebar_layout": {
         "prefix": "genesis_mod_layout_unregister_content_sidebar_sidebar_layout",
         "body": [
-            "//* Unregister content/sidebar/sidebar layout setting.",
+            "// Unregister content/sidebar/sidebar layout setting.",
             "genesis_unregister_layout( 'content-sidebar-sidebar' );"
         ],
         "description": "Unregister content/sidebar/sidebar layout setting."
@@ -1166,7 +1166,7 @@
     "Mod: genesis_mod_layout_unregister_sidebar_sidebar_content_layout": {
         "prefix": "genesis_mod_layout_unregister_sidebar_sidebar_content_layout",
         "body": [
-            "//* Unregister sidebar/sidebar/content layout setting.",
+            "// Unregister sidebar/sidebar/content layout setting.",
             "genesis_unregister_layout( 'sidebar-sidebar-content' );"
         ],
         "description": "Unregister sidebar/sidebar/content layout setting."
@@ -1174,7 +1174,7 @@
     "Mod: genesis_mod_layout_unregister_sidebar_content_sidebar_layout": {
         "prefix": "genesis_mod_layout_unregister_sidebar_content_sidebar_layout",
         "body": [
-            "//* Unregister sidebar/content/sidebar layout setting.",
+            "// Unregister sidebar/content/sidebar layout setting.",
             "genesis_unregister_layout( 'sidebar-content-sidebar' );"
         ],
         "description": "Unregister sidebar/content/sidebar layout setting."
@@ -1182,7 +1182,7 @@
     "Mod: genesis_mod_layout_unregister_full_width_content_layout": {
         "prefix": "genesis_mod_layout_unregister_full_width_content_layout",
         "body": [
-            "//* Unregister full-width content layout setting.",
+            "// Unregister full-width content layout setting.",
             "genesis_unregister_layout( 'full-width-content' );"
         ],
         "description": "Unregister full-width content layout setting."
@@ -1190,7 +1190,7 @@
     "Mod: genesis_mod_author_box_display_on_single_post": {
         "prefix": "genesis_mod_author_box_display_on_single_post",
         "body": [
-            "//* Display author box on single posts.",
+            "// Display author box on single posts.",
             "add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );"
         ],
         "description": "Display author box on single posts"
@@ -1198,7 +1198,7 @@
     "Mod: genesis_mod_author_box_display_on_archive_pages": {
         "prefix": "genesis_mod_author_box_display_on_archive_pages",
         "body": [
-            "//* Display author box on archive pages.",
+            "// Display author box on archive pages.",
             "add_filter( 'get_the_author_genesis_author_box_archive', '__return_true' );"
         ],
         "description": "Display author box on archive pages"
@@ -1206,7 +1206,7 @@
     "Mod: genesis_mod_author_box_customize_title": {
         "prefix": "genesis_mod_author_box_customize_title",
         "body": [
-            "//* Customize the author box title.",
+            "// Customize the author box title.",
             "add_filter( 'genesis_author_box_title', '${1:prefix}_author_box_title' );",
             "function ${1:prefix}_author_box_title() {",
             "\treturn '${2:<strong>About the Author</strong>}';",
@@ -1217,7 +1217,7 @@
     "Mod: genesis_mod_author_box_modify_gravatar_size": {
         "prefix": "genesis_mod_author_modify_box_gravatar_size",
         "body": [
-            "//* Modify the size of the Gravatar in the author box.",
+            "// Modify the size of the Gravatar in the author box.",
             "add_filter( 'genesis_author_box_gravatar_size', '${1:prefix}_author_box_gravatar_size' );",
             "function ${1:prefix}_author_box_gravatar_size( \\$size) {",
             "\treturn ${2:80};",
@@ -1228,7 +1228,7 @@
     "Mod: genesis_mod_breadcrumbs_modify_home_link": {
         "prefix": "genesis_mod_breadcrumbs_modify_home_link",
         "body": [
-            "//* Modify Home breadcrumb link.",
+            "// Modify Home breadcrumb link.",
             "add_filter( 'genesis_breadcrumb_homelink', '${1:prefix}_breadcrumb_home_link' );",
             "function ${1:prefix}_breadcrumb_home_link( \\$crumb ) {",
             "\treturn preg_replace( '/href=\"[^\"]*\"/', '${2:href=\"http://example.com/home\"}', \\$crumb );",
@@ -1239,7 +1239,7 @@
     "Mod: genesis_mod_breadcrumbs_reposition_breacrumbs": {
         "prefix": "genesis_mod_breadcrumbs_reposition_breacrumbs",
         "body": [
-            "//* Reposition the breadcrumbs.",
+            "// Reposition the breadcrumbs.",
             "remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );",
             "add_action( 'genesis_after_header', 'genesis_do_breadcrumbs' );"
         ],
@@ -1248,7 +1248,7 @@
     "Mod: genesis_mod_breadcrumbs_modify_display_options": {
         "prefix": "genesis_mod_breadcrumbs_modify_display_options",
         "body": [
-            "//* Modify breadcrumb arguments.",
+            "// Modify breadcrumb arguments.",
             "add_filter( 'genesis_breadcrumb_args', '${1:prefix}_breadcrumb_args' );",
             "function ${1:prefix}_breadcrumb_args( \\$args ) {",
             "\t${2:\\$args['home'] = }${3:'Home';}",
@@ -1276,7 +1276,7 @@
     "Mod: genesis_mod_unregister_widgets": {
         "prefix": "genesis_mod_unregister_widgets",
         "body": [
-            "//* Unregister Genesis widgets.",
+            "// Unregister Genesis widgets.",
             "add_action( 'widgets_init', 'unregister_genesis_widgets', 20 );",
             "function unregister_genesis_widgets() {",
             "\t${1:unregister_widget( 'Genesis_eNews_Updates' );}",
@@ -1293,7 +1293,7 @@
     "Mod: genesis_mod_remove_inpost_seo": {
         "prefix": "genesis_mod_remove_inpost_seo",
         "body": [
-            "//* Remove Genesis in-post SEO Settings.",
+            "// Remove Genesis in-post SEO Settings.",
             "remove_action( 'admin_menu', 'genesis_add_inpost_seo_box' );"
         ],
         "description": "Remove Genesis in-post SEO Settings."
@@ -1301,7 +1301,7 @@
     "Mod: genesis_mod_remove_author_box_on_single_post": {
         "prefix": "genesis_mod_remove_author_box_on_single_post",
         "body": [
-            "//* Remove the author box on single posts HTML5 Themes.",
+            "// Remove the author box on single posts HTML5 Themes.",
             "remove_action( 'genesis_after_entry', 'genesis_do_author_box_single', 8 );"
         ],
         "description": "Remove the author box on single posts HTML5 Themes."
@@ -1309,7 +1309,7 @@
     "Mod: genesis_mod_remove_layout_settings": {
         "prefix": "genesis_mod_remove_layout_settings",
         "body": [
-            "//* Remove Genesis Layout Settings.",
+            "// Remove Genesis Layout Settings.",
             "remove_theme_support( 'genesis-inpost-layouts' );"
         ],
         "description": "Remove Genesis Layout Settings."
@@ -1317,7 +1317,7 @@
     "Mod: genesis_mod_remove_admin_menu": {
         "prefix": "genesis_mod_remove_admin_menu",
         "body": [
-            "//* Remove Genesis menu link.",
+            "// Remove Genesis menu link.",
             "remove_theme_support( 'genesis-admin-menu' );"
         ],
         "description": "Remove Genesis admin menu link."
@@ -1325,7 +1325,7 @@
     "Mod: genesis_mod_remove_seo_settings_menu_link": {
         "prefix": "genesis_mod_remove_seo_settings_menu_link",
         "body": [
-            "//* Remove Genesis SEO Settings menu link.",
+            "// Remove Genesis SEO Settings menu link.",
             "remove_theme_support( 'genesis-seo-settings-menu' );"
         ],
         "description": "Remove Genesis SEO Settings menu link."
@@ -1333,7 +1333,7 @@
     "Mod: genesis_mod_comments_author_says_text": {
         "prefix": "genesis_mod_comments_author_says_text",
         "body": [
-            "//* Modify the author says text in comments.",
+            "// Modify the author says text in comments.",
             "add_filter( 'comment_author_says_text', '{$1:prefix}_modify_comment_author_says_text' );",
             "function {$1:prefix}_modify_comment_author_says_text() {",
             "\treturn '${2:author says}';",
@@ -1344,7 +1344,7 @@
     "Mod: genesis_mod_comments_link_text": {
         "prefix": "genesis_mod_comments_link_text",
         "body": [
-            "//* Modify the comment link text in comments.",
+            "// Modify the comment link text in comments.",
             "add_filter( 'genesis_post_info', '{$1:prefix}_modify_comments_link_text' );",
             "function {$1:prefix}_modify_comments_link_text( \\$post_info ) {",
             "\treturn '[post_comments zero=\"{$2:Leave a Comment}\" one=\"{$3:1 Comment}\" more=\"{4:% Comments}\"]';",
@@ -1355,7 +1355,7 @@
     "Mod: genesis_mod_comments_title": {
         "prefix": "genesis_mod_comments_title",
         "body": [
-            "//* Modify comments title text in comments.",
+            "// Modify comments title text in comments.",
             "add_filter( 'genesis_title_comments', '{$1:prefix}_modify_comments_title_text_in_comments' );",
             "function {$1:prefix}_modify_comments_title_text_in_comments() {",
             "\t$title = '<h3>{$2:Discussion}</h3>';",
@@ -1367,7 +1367,7 @@
     "Mod: genesis_mod_comments_gravatar_size": {
         "prefix": "genesis_mod_comments_gravatar_size",
         "body": [
-            "//* Modify the size of the Gravatar in comments.",
+            "// Modify the size of the Gravatar in comments.",
             "add_filter( 'genesis_comment_list_args', '{$1:prefix}_modify_comments_gravatar_size' );",
             "function {$1:prefix}_modify_comments_gravatar_size( \\$args ) {",
             "\t$args['avatar_size'] = ${2:96};",
@@ -1379,7 +1379,7 @@
     "Mod: genesis_mod_comments_leave_a_comment_text": {
         "prefix": "genesis_mod_comments_leave_a_comment_text",
         "body": [
-            "//* Modify the leave a comment title in comments.",
+            "// Modify the leave a comment title in comments.",
             "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_leave_a_comment_text' );",
             "function {$1:prefix}_modify_leave_a_comment_text( \\$defaults ) {",
             "\t$defaults['title_reply'] = __( '${2:Leave a Comment}' );",
@@ -1391,7 +1391,7 @@
     "Mod: genesis_mod_comments_trackbacks_title_in_comments": {
         "prefix": "genesis_mod_comments_trackbacks_title_in_comments",
         "body": [
-            "//* Modify trackbacks title in comments.",
+            "// Modify trackbacks title in comments.",
             "add_filter( 'genesis_title_pings', '{$1:prefix}_modify_title_pings' );",
             "function {$1:prefix}_modify_title_pings() {",
             "\techo '<h3>${2:Trackbacks}</h3>';",
@@ -1402,7 +1402,7 @@
     "Mod: genesis_mod_comments_sumbit_button_text": {
         "prefix": "genesis_mod_comments_sumbit_button_text",
         "body": [
-            "//* Modify the submit button text in comments.",
+            "// Modify the submit button text in comments.",
             "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_comments_submit_button_text' );",
             "function {$1:prefix}_modify_comments_submit_button_text( \\$defaults ) {",
             "\t$defaults['label_submit'] = __( 'Submit', ${2:Custom}' );",
@@ -1414,7 +1414,7 @@
     "Mod: genesis_mod_comments_add_policy_box_after_comments": {
         "prefix": "genesis_mod_comments_add_policy_box_after_comments",
         "body": [
-            "//* Add a comment policy box in comments.",
+            "// Add a comment policy box in comments.",
             "add_action( 'genesis_after_comments', '{$1:prefix}_modify_add_comments_policy_box_after_comments' );",
             "function {$1:prefix}_modify_add_comments_policy_box_after_comments() {",
             "\tif ( is_single() && !is_user_logged_in() && comments_open() ) {",
@@ -1431,7 +1431,7 @@
     "Mod: genesis_mod_comments_remove_comment_from_allowed_tags": {
         "prefix": "genesis_mod_comments_remove_comment_from_allowed_tags",
         "body": [
-            "//* Remove comment form allowed tags.",
+            "// Remove comment form allowed tags.",
             "add_filter( 'comment_form_defaults', '{$1:prefix}_modify_remove_comment_form_allowed_tags' );",
             "function {$1:prefix}_modify_remove_comment_form_allowed_tags( \\$defaults ) {",
             "\t$defaults['comment_notes_after'] = '${2:string}';",
