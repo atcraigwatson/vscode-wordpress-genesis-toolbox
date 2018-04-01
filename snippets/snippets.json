@@ -1091,101 +1091,101 @@
         ],
         "description": "Function to output markup conditionally. Frount in - genesis/lib/functions/markup.php line 45."
     },
-    "Mod: genesis_mod_layout_force_content_sidebar_layout": {
-        "prefix": "genesis_mod_layout_force_content_sidebar_layout",
+    "Mod: genesis_mod_layout_force_content-sidebar_layout": {
+        "prefix": "genesis_mod_layout_force_content-sidebar_layout",
         "body": [
             "// Force content-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );"
         ],
         "description": "Force content-sidebar layout setting."
     },
-    "Mod: genesis_mod_layout_force_sidebar_content_layout": {
-        "prefix": "genesis_mod_layout_force_sidebar_content_layout",
+    "Mod: genesis_mod_layout_force_sidebar-content_layout": {
+        "prefix": "genesis_mod_layout_force_sidebar-content_layout",
         "body": [
             "// Force sidebar-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content' );"
         ],
         "description": "Force sidebar-content layout setting."
     },
-    "Mod: genesis_mod_layout_force_content_sidebar_sidebar_layout": {
-        "prefix": "genesis_mod_layout_force_content_sidebar_sidebar_layout",
+    "Mod: genesis_mod_layout_force_content-sidebar-sidebar_layout": {
+        "prefix": "genesis_mod_layout_force_content-sidebar-sidebar_layout",
         "body": [
             "// Force content-sidebar-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar_sidebar' );"
         ],
         "description": "Force content-sidebar-sidebar layout setting."
     },
-    "Mod: genesis_mod_layout_force_sidebar_sidebar_content_layout": {
-        "prefix": "genesis_mod_layout_force_sidebar_sidebar_content_layout",
+    "Mod: genesis_mod_layout_force_sidebar-sidebar-content_layout": {
+        "prefix": "genesis_mod_layout_force_sidebar-sidebar-content_layout",
         "body": [
             "// Force sidebar-sidebar-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_sidebar_content' );"
         ],
         "description": "Force sidebar-sidebar-content layout setting."
     },
-    "Mod: genesis_mod_layout_force_sidebar_content_sidebar_layout": {
-        "prefix": "genesis_mod_layout_force_sidebar_content_sidebar_layout",
+    "Mod: genesis_mod_layout_force_sidebar-content-sidebar_layout": {
+        "prefix": "genesis_mod_layout_force_sidebar-content-sidebar_layout",
         "body": [
             "// Force sidebar-content-sidebar layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content_sidebar' );"
         ],
         "description": "Force sidebar-content-sidebar layout setting"
     },
-    "Mod: genesis_mod_layout_force_full_width_layout": {
-        "prefix": "genesis_mod_layout_force_full_width_layout",
+    "Mod: genesis_mod_layout_force_full-width-content_layout": {
+        "prefix": "genesis_mod_layout_force_full-width-content_layout",
         "body": [
-            "// Force full-width layout setting.",
+            "// Force full-width-content layout setting.",
             "add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );"
         ],
-        "description": "Force full-width layout setting"
+        "description": "Force full-width-content layout setting"
     },
-    "Mod: genesis_mod_layout_unregister_content_sidebar_layout": {
-        "prefix": "genesis_mod_layout_unregister_content_sidebar_layout",
+    "Mod: genesis_mod_layout_unregister_content-sidebar_layout": {
+        "prefix": "genesis_mod_layout_unregister_content-sidebar_layout",
         "body": [
-            "// Unregister content/sidebar layout setting.",
+            "// Unregister content-sidebar layout setting.",
             "genesis_unregister_layout( 'content-sidebar' );"
         ],
-        "description": "Unregister content/sidebar layout setting."
+        "description": "Unregister content-sidebar layout setting."
     },
-    "Mod: genesis_mod_layout_unregister_sidebar_content_layout": {
-        "prefix": "genesis_mod_layout_unregister_sidebar_content_layout",
+    "Mod: genesis_mod_layout_unregister_sidebar-content_layout": {
+        "prefix": "genesis_mod_layout_unregister_sidebar-content_layout",
         "body": [
-            "// Unregister sidebar/content layout setting.",
+            "// Unregister sidebar-content layout setting.",
             "genesis_unregister_layout( 'sidebar-content' );"
         ],
-        "description": "Unregister sidebar/content layout setting."
+        "description": "Unregister sidebar-content layout setting."
     },
-    "Mod: genesis_mod_layout_unregister_content_sidebar_sidebar_layout": {
-        "prefix": "genesis_mod_layout_unregister_content_sidebar_sidebar_layout",
+    "Mod: genesis_mod_layout_unregister_content-sidebar-sidebar_layout": {
+        "prefix": "genesis_mod_layout_unregister_content-sidebar-sidebar_layout",
         "body": [
-            "// Unregister content/sidebar/sidebar layout setting.",
+            "// Unregister content-sidebar-sidebar layout setting.",
             "genesis_unregister_layout( 'content-sidebar-sidebar' );"
         ],
-        "description": "Unregister content/sidebar/sidebar layout setting."
+        "description": "Unregister content-sidebar-sidebar layout setting."
     },
-    "Mod: genesis_mod_layout_unregister_sidebar_sidebar_content_layout": {
-        "prefix": "genesis_mod_layout_unregister_sidebar_sidebar_content_layout",
+    "Mod: genesis_mod_layout_unregister_sidebar-sidebar-content_layout": {
+        "prefix": "genesis_mod_layout_unregister_sidebar-sidebar-content_layout",
         "body": [
-            "// Unregister sidebar/sidebar/content layout setting.",
+            "// Unregister sidebar-sidebar-content layout setting.",
             "genesis_unregister_layout( 'sidebar-sidebar-content' );"
         ],
-        "description": "Unregister sidebar/sidebar/content layout setting."
+        "description": "Unregister sidebar-sidebar-content layout setting."
     },
-    "Mod: genesis_mod_layout_unregister_sidebar_content_sidebar_layout": {
-        "prefix": "genesis_mod_layout_unregister_sidebar_content_sidebar_layout",
+    "Mod: genesis_mod_layout_unregister_sidebar-content-sidebar_layout": {
+        "prefix": "genesis_mod_layout_unregister_sidebar-content-sidebar_layout",
         "body": [
-            "// Unregister sidebar/content/sidebar layout setting.",
+            "// Unregister sidebar-content-sidebar layout setting.",
             "genesis_unregister_layout( 'sidebar-content-sidebar' );"
         ],
-        "description": "Unregister sidebar/content/sidebar layout setting."
+        "description": "Unregister sidebar-content-sidebar layout setting."
     },
-    "Mod: genesis_mod_layout_unregister_full_width_content_layout": {
-        "prefix": "genesis_mod_layout_unregister_full_width_content_layout",
+    "Mod: genesis_mod_layout_unregister_full-width-content_layout": {
+        "prefix": "genesis_mod_layout_unregister_full-width-content_layout",
         "body": [
-            "// Unregister full-width content layout setting.",
+            "// Unregister full-width-content layout setting.",
             "genesis_unregister_layout( 'full-width-content' );"
         ],
-        "description": "Unregister full-width content layout setting."
+        "description": "Unregister full-width-content layout setting."
     },
     "Mod: genesis_mod_author_box_display_on_single_post": {
         "prefix": "genesis_mod_author_box_display_on_single_post",
