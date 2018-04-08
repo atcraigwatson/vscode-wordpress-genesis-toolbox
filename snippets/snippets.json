@@ -1203,27 +1203,41 @@
         ],
         "description": "Display author box on archive pages"
     },
-    "Mod: genesis_mod_author_box_customize_title": {
-        "prefix": "genesis_mod_author_box_customize_title",
+    "Mod: genesis_mod_author_box_title": {
+        "prefix": "genesis_mod_author_box_title",
         "body": [
-            "// Customize the author box title.",
             "add_filter( 'genesis_author_box_title', '${1:prefix}_author_box_title' );",
+            "/**",
+            " * Get the author box title.",
+            " *",
+            " * @since ${4:x.x.x}",
+            " *",
+            " * @return string Author box title content.",
+            " *",
+            " */",
             "function ${1:prefix}_author_box_title() {",
-            "\treturn '${2:<strong>About the Author</strong>}';",
+            "\treturn __( '${2:<strong>About the Author</strong>}', '${3:textdomain}' );",
             "}${0}"
         ],
-        "description": "Customize the author box title."
+        "description": "Amend the author box title."
     },
-    "Mod: genesis_mod_author_box_modify_gravatar_size": {
-        "prefix": "genesis_mod_author_modify_box_gravatar_size",
+    "Mod: genesis_mod_author_box_gravatar_size": {
+        "prefix": "genesis_mod_author_box_gravatar_size",
         "body": [
-            "// Modify the size of the Gravatar in the author box.",
             "add_filter( 'genesis_author_box_gravatar_size', '${1:prefix}_author_box_gravatar_size' );",
+            "/**",
+            " * Get the author box gravatar size.",
+            " *",
+            " * @since ${3:x.x.x}",
+            " *",
+            " * @param int \\$size Existing author box gravatar size.",
+            " * @return int Amended author box gravatar size.",
+            " */",
             "function ${1:prefix}_author_box_gravatar_size( \\$size) {",
             "\treturn ${2:80};",
             "}${0}"
         ],
-        "description": "Modify the size of the Gravatar in the author box."
+        "description": "Amend the author box gravatar size."
     },
     "Mod: genesis_mod_breadcrumbs_modify_home_link": {
         "prefix": "genesis_mod_breadcrumbs_modify_home_link",
